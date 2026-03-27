@@ -20,7 +20,7 @@
   margin-bottom: 0.2em !important; /* espacio entre items */
   line-height: 1.2em !important;
   font-size: 0.7em;      /* tamaño más compacto */
-  max-width: 90ch;   /* aprox 80 caracteres por línea */
+  max-width: 80ch;   /* aprox 80 caracteres por línea */
 }
 
 /* Opcional: cambia color de links solo en las publicaciones */
@@ -52,4 +52,8 @@
 /* listas más compactas */
 .column ul {
   padding-left: 1.2em;
+}
+
+.page__content {
+  max-width: 900px;
 }
