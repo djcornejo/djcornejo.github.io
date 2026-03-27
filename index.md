@@ -6,4 +6,29 @@ layout: single
 author_profile: true
 ---
 
+## About me
+
 I am a **PhD candidate** in Mathematics at North Carolina State University, where I successfully defended my dissertation in March 2026. My degree will be conferred in May 2026.
+
+My research focuses on XXX. I am particularly interested in YYY and ZZZ.
+
+---
+
+<div class="two-columns">
+  <div>
+    <h3>Interests</h3>
+    <ul>
+      <li>Machine Learning</li>
+      <li>Natural Language Processing</li>
+      <li>Optimization</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Education</h3>
+    <ul>
+      <li>PhD in XXX, YYY University (2026)</li>
+      <li>MSc in XXX</li>
+    </ul>
+  </div>
+</div>
