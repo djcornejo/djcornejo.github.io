@@ -24,7 +24,7 @@ title: "Publications"
 - D. J. Cornejo,
   Parametrized families of resolvent compositions,
   <cite><a href ="https://link.springer.com/journal/11228">
-  Set-Valued and Variational Analysis</a><\cite>,
+  Set-Valued and Variational Analysis</a></cite>,
   vol. 33, no 1, art. 6, 24 pp., February 2025.
   [\[pdf\]](../assets/pdfs/svva25.pdf)
 
