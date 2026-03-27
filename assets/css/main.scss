@@ -17,8 +17,10 @@
 /* Ajusta la lista de publicaciones: margen y tamaño */
 .page__content ol li,
 .page__content ul li {
-  margin-bottom: 0.5em; /* espacio entre items */
+  margin-bottom: 0.2em !important; /* espacio entre items */
+  line-height: 1.2em !important;
   font-size: 0.7em;      /* tamaño más compacto */
+  max-width: 80ch;   /* aprox 80 caracteres por línea */
 }
 
 /* Opcional: cambia color de links solo en las publicaciones */
