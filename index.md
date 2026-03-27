@@ -27,6 +27,11 @@ My research focuses on XXX. I am particularly interested in YYY and ZZZ.
     <ul class="education-list">
       <li>
         <i class="fas fa-graduation-cap"></i>
+        PhD in Mathematics, 2026 <br>
+        <span class="edu-inst">North Carolina State University University</span>
+      </li>
+      <li>
+        <i class="fas fa-graduation-cap"></i>
         PhD in Mathematics, North Carolina State University (2026)
       </li>
       <li>
