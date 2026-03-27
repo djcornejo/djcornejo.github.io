@@ -59,6 +59,14 @@
   max-width: 1400px !important;
 }
 
+.page__inner-wrap {
+  max-width: 1200px !important;
+}
+
+.page__content p {
+  max-width: none !important;
+}
+
 .edu-inst {
   color: #888888;     /* gris */
   font-size: 0.7em;  /* más pequeño */
