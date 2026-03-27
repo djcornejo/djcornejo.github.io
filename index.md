@@ -16,6 +16,7 @@ where I successfully defended my dissertation in March 2026. My degree will be c
     <h3>Interests</h3>
     <ul>
       <li>Monotone Operators</li>
+      <li>Convex Analysis</li>
       <li>Optimization</li>
       <li>Machine Learning</li>
     </ul>
