@@ -11,7 +11,6 @@ where I successfully defended my dissertation in March 2026. My degree will be c
 
 My research focuses on XXX. I am particularly interested in YYY and ZZZ.
 
----
 
 <div class="two-columns">
   <div class="column">
