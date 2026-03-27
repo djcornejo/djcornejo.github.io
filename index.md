@@ -9,7 +9,6 @@ author_profile: true
 I am a **PhD candidate** in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu), 
 where I successfully defended my dissertation in March 2026. My degree will be conferred in May 2026.
 
-My research focuses on XXX. I am particularly interested in YYY and ZZZ.
 
 
 <div class="two-columns">
@@ -32,8 +31,13 @@ My research focuses on XXX. I am particularly interested in YYY and ZZZ.
       </li>
       <li>
         <i class="fas fa-graduation-cap"></i>
-        MSc in Mathematics, 2024 <br>
+        MSc in Mathematics, 2023 <br>
         <span class="edu-inst">North Carolina State University </span>
+      </li>
+      <li>
+        <i class="fas fa-graduation-cap"></i>
+        BSc in Mathematics, 2020 <br>
+        <span class="edu-inst">Universidad Nacional de Ingeniería </span>
       </li>
     </ul>
   </div>
