@@ -23,6 +23,11 @@
   max-width: 80ch;   /* aprox 80 caracteres por línea */
 }
 
+/* listas más compactas */
+.column ul {
+  padding-left: 1.2em;
+}
+
 /* Opcional: cambia color de links solo en las publicaciones */
 .page__content a {
   color: #990000;        /* rojo oscuro */
@@ -49,13 +54,9 @@
   margin-bottom: 0.5em;
 }
 
-/* listas más compactas */
-.column ul {
-  padding-left: 1.2em;
-}
 
 .page__content {
-  max-width: 1300px;
+  max-width: 1500px;
 }
 
 .edu-inst {
