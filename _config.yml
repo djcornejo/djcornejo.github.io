@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Diego J. Cornejo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "PhD candidate in Mathematics at North Carolina State University. Dissertation defended in March 2026; degree to be conferred in May 2026."
+  bio    : "PhD candidate in Mathematics at [\[North Carolina State University\]](https://ncsu.edu). Dissertation defended in March 2026; degree to be conferred in May 2026."
  #  links:
  #   - label: "Website"
  #     icon: "fas fa-fw fa-link"
