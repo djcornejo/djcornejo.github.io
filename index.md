@@ -17,17 +17,23 @@ My research focuses on XXX. I am particularly interested in YYY and ZZZ.
   <div class="column">
     <h3>Interests</h3>
     <ul>
-      <li>Machine Learning</li>
-      <li>Natural Language Processing</li>
+      <li>Monotone Operators</li>
       <li>Optimization</li>
+      <li>Machine Learning</li>
     </ul>
   </div>
 
   <div class="column">
     <h3>Education</h3>
-    <ul>
-      <li>PhD in XXX, YYY University (2026)</li>
-      <li>MSc in XXX</li>
+    <ul class="education-list">
+      <li>
+        <i class="fas fa-graduation-cap"></i>
+        PhD in Mathematics, North Carolina State University (2026)
+      </li>
+      <li>
+        <i class="fas fa-graduation-cap"></i>
+        MSc in Mathematics, North Carolina State University (2023)
+      </li>
     </ul>
   </div>
 </div>
