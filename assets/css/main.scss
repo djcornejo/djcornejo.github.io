@@ -4,10 +4,28 @@
 
 @import "minimal-mistakes";
 
+/* Alinea tu bio a la derecha o justificado */
 .author__bio {
   text-align: justify;
 }
 
+/* Reduce tamaño de los títulos dentro de la lista si quieres */
 .page__content strong {
-  margin-bottom: 0.5em;
+  font-size: 0.95em; /* más pequeño que el normal */
+}
+
+/* Ajusta la lista de publicaciones: margen y tamaño */
+.page__content ol li,
+.page__content ul li {
+  margin-bottom: 0.5em; /* espacio entre items */
+  font-size: 0.9em;      /* tamaño más compacto */
+}
+
+/* Opcional: cambia color de links solo en las publicaciones */
+.page__content a {
+  color: #990000;        /* rojo oscuro */
+  text-decoration: none;
+}
+.page__content a:hover {
+  color: #cc0000;
 }
