@@ -5,7 +5,7 @@
 @import "minimal-mistakes";
 
 /* Alinea tu bio a la derecha o justificado */
-.author__bio {
+/*.author__bio {
   text-align: justify;
 }
 
@@ -18,7 +18,7 @@
 .page__content ol li,
 .page__content ul li {
   margin-bottom: 0.5em; /* espacio entre items */
-  font-size: 0.9em;      /* tamaño más compacto */
+  font-size: 0.7em;      /* tamaño más compacto */
 }
 
 /* Opcional: cambia color de links solo en las publicaciones */
