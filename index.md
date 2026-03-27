@@ -6,14 +6,15 @@ layout: single
 author_profile: true
 ---
 
-I am a **PhD candidate** in Mathematics at North Carolina State University, where I successfully defended my dissertation in March 2026. My degree will be conferred in May 2026.
+I am a **PhD candidate** in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu), 
+where I successfully defended my dissertation in March 2026. My degree will be conferred in May 2026.
 
 My research focuses on XXX. I am particularly interested in YYY and ZZZ.
 
 ---
 
 <div class="two-columns">
-  <div>
+  <div class="column">
     <h3>Interests</h3>
     <ul>
       <li>Machine Learning</li>
@@ -22,7 +23,7 @@ My research focuses on XXX. I am particularly interested in YYY and ZZZ.
     </ul>
   </div>
 
-  <div>
+  <div class="column">
     <h3>Education</h3>
     <ul>
       <li>PhD in XXX, YYY University (2026)</li>
