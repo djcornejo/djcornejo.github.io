@@ -28,15 +28,12 @@ My research focuses on XXX. I am particularly interested in YYY and ZZZ.
       <li>
         <i class="fas fa-graduation-cap"></i>
         PhD in Mathematics, 2026 <br>
-        <span class="edu-inst">North Carolina State University University</span>
+        <span class="edu-inst">North Carolina State University </span>
       </li>
       <li>
         <i class="fas fa-graduation-cap"></i>
-        PhD in Mathematics, North Carolina State University (2026)
-      </li>
-      <li>
-        <i class="fas fa-graduation-cap"></i>
-        MSc in Mathematics, North Carolina State University (2023)
+        MSc in Mathematics, 2024 <br>
+        <span class="edu-inst">North Carolina State University </span>
       </li>
     </ul>
   </div>
