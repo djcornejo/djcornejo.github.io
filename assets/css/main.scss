@@ -9,11 +9,14 @@
   text-align: justify;
 } */
 
-/*  Tamaño de la foto */
-img {
-  width: 200px;   /* tamaño deseado */
-  max-width: 100%; /* aumenta el tamaño */
-  height: auto; /* mantiene proporción */
+.avatar {
+  width: 250px !important;   /* o 500px, según quieras */
+  height: auto !important;
+  border-radius: 50% !important;
+}
+
+.author {
+  max-width: none;  /* evita restricciones del contenedor */
 }
 
 /* Reduce tamaño de los títulos dentro de la lista si quieres */
