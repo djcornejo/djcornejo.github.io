@@ -7,7 +7,7 @@ author_profile: true
 ---
 
 I am a PhD candidate in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu), 
-where I successfully defended my dissertation in March 2026. My degree will be conferred in May 2026.
+where I successfully defended my dissertation in March 2026 and my degree will be conferred in May 2026.
 
 
 
@@ -27,7 +27,7 @@ where I successfully defended my dissertation in March 2026. My degree will be c
     <ul class="education-list">
       <li>
         <i class="fas fa-graduation-cap"></i>
-        PhD in Mathematics, 2026 <br>
+        PhD in Mathematics, May 2026 <br>
         <span class="edu-inst">North Carolina State University </span>
       </li>
       <li>
