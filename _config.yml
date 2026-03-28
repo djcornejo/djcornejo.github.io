@@ -113,3 +113,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+
+# Al final de _config.yml
+custom_css: /assets/css/custom.css
