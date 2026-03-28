@@ -10,20 +10,13 @@
   text-align: justify;
 } */
 
-.avatar {
-  width: 250px !important;   /* o 500px, según quieras */
-  height: auto !important;
-  border-radius: 50% !important;
+img[src="/assets/images/photo.jpeg"] {
+  width: 250px;         /* ancho deseado */
+  height: 250px;        /* mismo valor que ancho para que sea cuadrada */
+  border-radius: 50%;   /* redonda */
+  object-fit: cover;    /* mantiene proporción y recorta si es necesario */
   display: block;
-  margin: 0 auto; /* centra la imagen */
-  filter: none !important;      /* elimina filtros */
-  transform: none !important;   /* elimina escalado */
-  transition: none !important;  /* elimina animaciones al hover */
-}
-
-.avatar img {
-  image-rendering: auto;   /* asegura renderizado óptimo */
-  max-width: 100%;
+  margin: 0 auto;       /* centra la imagen */
 }
 
 .author {
