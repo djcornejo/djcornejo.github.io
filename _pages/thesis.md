@@ -3,4 +3,4 @@ permalink: /thesis/
 title: "Thesis"
 ---
 
-[Thesis](../assets/thesis/thesis.pdf)
+[PhD Thesis](../assets/thesis/thesis.pdf)
