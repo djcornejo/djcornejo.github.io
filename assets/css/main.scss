@@ -13,6 +13,8 @@
   width: 250px !important;   /* o 500px, según quieras */
   height: auto !important;
   border-radius: 50% !important;
+  display: block;
+  margin: 0 auto; /* centra la imagen */
 }
 
 .author {
