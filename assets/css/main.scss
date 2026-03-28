@@ -11,7 +11,9 @@
 
 /* Reduce tamaño de los títulos dentro de la lista si quieres */
 .page__content strong {
-  font-size: 1em; /* más pequeño que el normal */
+  font-weight: 600 !important;
+  font-size: 1em !important;
+  font-family: inherit !important;
 }
 
 /* Ajusta la lista de publicaciones: margen y tamaño */
