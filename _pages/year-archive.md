@@ -1,6 +1,6 @@
 ---
-title: "Posts by Year"
-permalink: /posts/
-layout: posts
-author_profile: true
+permalink: /thesis/
+title: "Thesis"
 ---
+
+[Thesis](../assets/thesis/thesis.pdf)
