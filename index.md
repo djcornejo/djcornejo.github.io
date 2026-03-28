@@ -30,11 +30,13 @@ where I successfully defended my dissertation in March 2026 and my degree will b
         PhD in Mathematics, May 2026 <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="edu-inst">North Carolina State University </span>
       </li>
+      <br>
       <li>
         <i class="fas fa-graduation-cap"></i>
         MSc in Mathematics, 2023 <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="edu-inst">North Carolina State University </span>
       </li>
+      <br>
       <li>
         <i class="fas fa-graduation-cap"></i>
         BSc in Mathematics, 2020 <br>
