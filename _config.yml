@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Diego J. Cornejo"
-  avatar : <img src="/assets/images/photo.jpeg" alt="Description" width="200">   #   "/assets/images/photo.jpeg"
+  avatar : "/assets/images/photo.jpeg"
   bio    : "PhD candidate in Mathematics at NCSU."
  #  links:
  #   - label: "Website"
