@@ -7,7 +7,7 @@ author_profile: true
 ---
 
 I am a PhD candidate in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu), 
-where I successfully defended my dissertation in March 2026 and my degree will be conferred in May 2026.
+where I successfully defended my dissertation in March 2026 under the supervision of Prof. [Patrick L. Combettes](https://pcombet.math.ncsu.edu). I focus on monotone inclusion models and convex optimization problems, with applications in signal recovery, data science, and machine learning.
 
 
 
