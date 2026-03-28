@@ -76,5 +76,6 @@
 }
 
 .education-list li {
-  margin-bottom: 1em !important; /* aumenta espacio entre items */
+  display: block;       /* asegura que margin se aplique correctamente */
+  margin-bottom: 1.5em; /* aumenta espacio entre items */
 }
