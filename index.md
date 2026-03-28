@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 ---
 
-I am a **PhD candidate** in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu), 
+I am a PhD candidate in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu), 
 where I successfully defended my dissertation in March 2026. My degree will be conferred in May 2026.
 
 
