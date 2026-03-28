@@ -1,6 +1,6 @@
 ---
-title: "Posts by Tag"
-permalink: /tags/
-layout: tags
-author_profile: true
+permalink: /cv/
+title: "Curriculum Vitae"
 ---
+
+- [\[CV\]](../assets/cv/cv.pdf)
