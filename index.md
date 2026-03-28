@@ -1,12 +1,12 @@
 ---
-**About me**
-
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
 ---
+
+**About me**
 
 I am a PhD candidate in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu), 
 where I successfully defended my dissertation in March 2026 under the supervision of Prof. [Patrick L. Combettes](https://pcombet.math.ncsu.edu). I focus on monotone inclusion models and convex optimization problems, with applications in signal recovery, data science, and machine learning.
