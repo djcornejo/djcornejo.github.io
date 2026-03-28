@@ -14,6 +14,7 @@
   font-weight: 600 !important;
   font-size: 0.7em !important;
   font-family: inherit !important;
+  max-width: 75ch;
 }
 
 /* Ajusta la lista de publicaciones: margen y tamaño */
@@ -75,5 +76,5 @@
 }
 
 .education-list li {
-  margin-bottom: 0.2em; /* aumenta espacio entre items */
+  margin-bottom: 0.2em !important; /* aumenta espacio entre items */
 }
