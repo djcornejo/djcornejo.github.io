@@ -3,4 +3,5 @@ permalink: /cv/
 title: "Curriculum Vitae"
 ---
 
-- [\[CV\]](../assets/cv/cv.pdf)
+- [CV English](../assets/cv/cv.pdf)
+- [CV Spanish](../assets/cv/cv.pdf)
