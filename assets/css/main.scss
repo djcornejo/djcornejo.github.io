@@ -11,12 +11,20 @@
 } */
 
 img[src="/assets/images/photo.jpeg"] {
-  width: 250px;         /* ancho deseado */
-  height: 250px;        /* mismo valor que ancho para que sea cuadrada */
-  border-radius: 50%;   /* redonda */
-  object-fit: cover;    /* mantiene proporción y recorta si es necesario */
+  width: 250px !important;
+  height: 250px !important;
+  min-width: 250px !important;
+  min-height: 250px !important;
+  max-width: 250px !important;
+  max-height: 250px !important;
+
+  border-radius: 50% !important;
+  object-fit: cover !important;
+
   display: block;
-  margin: 0 auto;       /* centra la imagen */
+  margin: 0 auto;
+
+  aspect-ratio: 1 / 1;   /* 👈 clave moderna */
 }
 
 .author {
