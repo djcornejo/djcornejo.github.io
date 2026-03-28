@@ -46,11 +46,13 @@
 
 /* Opcional: cambia color de links solo en las publicaciones */
 .page__content a {
-  color: #990000;        /* rojo oscuro */
+  color: #cc0000;
   text-decoration: none;
 }
+
+/* Opcional: cambia color de links al pasar el mouse */
 .page__content a:hover {
-  color: #cc0000;
+  color: #990000;        /* rojo oscuro */
 }
 
 .two-columns {
