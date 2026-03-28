@@ -7,6 +7,12 @@
 /* Alinea tu bio a la derecha o justificado */ 
 /*.author__bio {
   text-align: justify;
+} */
+
+/*  Tamaño de la foto */
+.avatar {
+  width: 250px; /* aumenta el tamaño */
+  height: auto; /* mantiene proporción */
 }
 
 /* Reduce tamaño de los títulos dentro de la lista si quieres */
