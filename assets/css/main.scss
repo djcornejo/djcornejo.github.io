@@ -16,6 +16,14 @@
   border-radius: 50% !important;
   display: block;
   margin: 0 auto; /* centra la imagen */
+  filter: none !important;      /* elimina filtros */
+  transform: none !important;   /* elimina escalado */
+  transition: none !important;  /* elimina animaciones al hover */
+}
+
+.avatar img {
+  image-rendering: auto;   /* asegura renderizado óptimo */
+  max-width: 100%;
 }
 
 .author {
