@@ -6,7 +6,6 @@ layout: single
 author_profile: true 
 ---
 
-title: About me
 <h1>About me</h1>	
 
 I am a PhD candidate in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu), 
