@@ -116,4 +116,4 @@ tag_archive:
 
 
 # Al final de _config.yml
-custom_css: /assets/css/custom.css
+#custom_css: /assets/css/custom.css
