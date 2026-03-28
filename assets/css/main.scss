@@ -22,7 +22,9 @@ img[src="/assets/images/photo.jpeg"] {
   object-fit: cover !important;
 
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin: 0 auto;*/
 
   aspect-ratio: 1 / 1;   /* 👈 clave moderna */
 }
