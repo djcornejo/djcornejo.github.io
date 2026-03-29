@@ -49,6 +49,7 @@
   .author__avatar img {
     width: 120px !important;   /* 👈 más pequeña */
     height: 120px !important;
+    object-fit: cover !important;  /* clave para que no se vea ovalada */
     border-radius: 50%;
     display: block;
   }
