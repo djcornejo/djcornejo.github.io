@@ -138,3 +138,12 @@ img[src="/assets/images/photo.jpeg"]:hover {
  /*line-height: 0.5; */           /* opcional, para mejor lectura */
   /*text-align: center;   */      /* centra el texto */
 }
+
+
+.avatar,
+.author__avatar,
+.avatar img,
+.author__avatar img {
+  filter: none !important;
+  opacity: 1 !important;
+}
