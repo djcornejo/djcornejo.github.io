@@ -31,12 +31,15 @@
 
 /* 📱 móvil */
 @media (max-width: 768px) {
+  .author__avatar {
+    width: 100%;
+  }
+
   .author__avatar img {
-    width: 80% !important;
+    width: 180px !important;
     max-width: none !important;
   }
 }
-
 
 
 
@@ -47,9 +50,11 @@
 
 
 .author__avatar {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
 }
+
+
 
 .author {
   max-width: none;  /* evita restricciones del contenedor */
@@ -89,8 +94,6 @@
 }
 
 
-
-
 .two-columns {
   display: flex;
   gap: 2em;
@@ -100,13 +103,14 @@
   flex: 1;
 }
 
+
+
 /* 👇 para pantallas pequeñas */
 @media (max-width: 768px) {
   .two-columns {
     flex-direction: column;
   }
 }
-
 
 
 
@@ -138,12 +142,3 @@
   /*text-align: center;   */      /* centra el texto */
 }
 
-
-
-
-@media (max-width: 768px) {
-  .author__avatar img {
-    border: 5px solid blue !important;
-    width: 90% !important;
-  }
-}
