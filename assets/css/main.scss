@@ -11,28 +11,11 @@
 } */
  
 /* img[src="/assets/images/photo.jpeg"] {  */
-.author__avatar img { 
-  width: 250px !important;
-  height: 250px !important;
-  min-width: 250px !important;
-  min-height: 250px !important;
-  max-width: 250px !important;
-  max-height: 250px !important;
-
-  border-radius: 50% !important;
-  object-fit: cover !important;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /*margin: 0 auto;*/
-
-  aspect-ratio: 1 / 1;   /* 👈 clave moderna */
-
-  border: none !important;
-  padding: 0 !important;
-  box-shadow: none !important;
-  background: none !important;
+.author__avatar img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
 
