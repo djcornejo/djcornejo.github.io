@@ -31,12 +31,8 @@
 
 /* 📱 móvil */
 @media (max-width: 768px) {
-  .author__avatar {
-    width: 100%;
-  }
-
   .author__avatar img {
-    width: 180px !important;
+    width: 180px !important;   /* 👈 tamaño real fijo */
     max-width: none !important;
   }
 }
