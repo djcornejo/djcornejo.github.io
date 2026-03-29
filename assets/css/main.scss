@@ -29,6 +29,15 @@ img[src="/assets/images/photo.jpeg"] {
   aspect-ratio: 1 / 1;   /* 👈 clave moderna */
 }
 
+.author__content {
+  text-align: center;
+}
+
+.author__avatar {
+  display: flex;
+  justify-content: center;
+}
+
 .author {
   max-width: none;  /* evita restricciones del contenedor */
 }
