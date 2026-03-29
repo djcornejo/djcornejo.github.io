@@ -107,13 +107,11 @@
 }
 
 
-.page {
-  max-width: 1400px !important;
+.page,
+.page__inner-wrap {
+  max-width: 100%;
 }
 
-.page__inner-wrap {
-  max-width: 1200px !important;
-}
 
 .page__content p {
   max-width: none !important;
