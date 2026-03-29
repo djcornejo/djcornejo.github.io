@@ -27,6 +27,11 @@ img[src="/assets/images/photo.jpeg"] {
   /*margin: 0 auto;*/
 
   aspect-ratio: 1 / 1;   /* 👈 clave moderna */
+
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  background: none !important;
 }
 
 .author__content {
