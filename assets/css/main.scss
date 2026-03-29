@@ -124,3 +124,13 @@
  /*line-height: 0.5; */           /* opcional, para mejor lectura */
   /*text-align: center;   */      /* centra el texto */
 }
+
+
+
+
+@media (max-width: 768px) {
+  .author__avatar img {
+    border: 5px solid blue !important;
+    width: 90% !important;
+  }
+}
