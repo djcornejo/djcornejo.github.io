@@ -163,3 +163,12 @@
   /*text-align: center;   */      /* centra el texto */
 }
 
+
+/* 🔥 FIX opacidad en desktop */
+.author__avatar img,
+.author__avatar img:hover,
+.author__avatar img:focus {
+  opacity: 1 !important;
+  filter: none !important;
+  transition: none !important;
+}
