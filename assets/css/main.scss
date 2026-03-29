@@ -10,7 +10,8 @@
   text-align: justify;
 } */
  
-img[src="/assets/images/photo.jpeg"] {
+/* img[src="/assets/images/photo.jpeg"] {  */
+.author__avatar img { 
   width: 250px !important;
   height: 250px !important;
   min-width: 250px !important;
@@ -34,11 +35,7 @@ img[src="/assets/images/photo.jpeg"] {
   background: none !important;
 }
 
-img[src="/assets/images/photo.jpeg"],
-img[src="/assets/images/photo.jpeg"]:hover {
-  filter: none !important;
-  opacity: 1 !important;
-}
+
 
 .author__content {
   text-align: center;
