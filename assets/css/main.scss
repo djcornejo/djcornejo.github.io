@@ -31,9 +31,34 @@
 
 /* 📱 móvil */
 @media (max-width: 768px) {
+
+  /* Contenedor principal */
+  .author {
+    display: flex !important;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Imagen */
+  .author__avatar {
+    float: none !important;   /* 🔥 clave */
+    flex: 0 0 auto;
+    margin: 0 !important;
+  }
+
   .author__avatar img {
-    width: 180px !important;   /* 👈 tamaño real fijo */
-    max-width: none !important;
+    width: 80px !important;   /* 👈 más pequeña */
+    height: 80px !important;
+    border-radius: 50%;
+    display: block;
+  }
+
+  /* Texto */
+  .author__content {
+    float: none !important;   /* 🔥 clave */
+    clear: none !important;
+    flex: 1;
+    text-align: left;
   }
 }
 
