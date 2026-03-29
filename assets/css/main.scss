@@ -89,22 +89,27 @@
   color: #990000;        /* rojo oscuro */
 }
 
+
+
+
 .two-columns {
   display: flex;
-  justify-content: space-between;
   gap: 2em;
-  margin-top: 1.5em;
 }
 
 .column {
-  flex: 1;              /* cada columna ocupa mismo espacio */
-  min-width: 250px;     /* evita que se aplasten */
+  flex: 1;
 }
 
-/* títulos tipo sección */
-.column h3 {
-  margin-bottom: 0.5em;
+/* 👇 para pantallas pequeñas */
+@media (max-width: 768px) {
+  .two-columns {
+    flex-direction: column;
+  }
 }
+
+
+
 
 
 .page,
