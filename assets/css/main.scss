@@ -144,21 +144,7 @@ img[src="/assets/images/photo.jpeg"]:hover {
 
 
 
-.author__avatar,
-.author__avatar img,
-.avatar,
-.avatar img {
+img {
   filter: none !important;
   opacity: 1 !important;
-  mix-blend-mode: normal !important;
-  background: transparent !important;
-}
-
-/* elimina overlays */
-.author__avatar::before,
-.author__avatar::after,
-.avatar::before,
-.avatar::after {
-  display: none !important;
-  content: none !important;
 }
