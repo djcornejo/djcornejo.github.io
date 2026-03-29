@@ -11,17 +11,34 @@
 } */
  
 /* img[src="/assets/images/photo.jpeg"] {  */
+
+.author__avatar {
+  background: transparent !important;
+  padding: 0 !important;
+  text-align: center;
+}
+
 .author__avatar img {
   width: 100%;
   max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: none !important;
+  box-shadow: none !important;
 }
 
+/* 📱 móvil */
 @media (max-width: 768px) {
   .author__avatar img {
-    max-width: 80% !important;
     width: 80% !important;
+    max-width: none !important;
   }
 }
+
+
+
 
 .author__content {
   text-align: center;
