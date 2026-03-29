@@ -65,13 +65,13 @@ author:
   name   : "Diego J. Cornejo"
   avatar : "/assets/images/photo.jpeg"
   bio    : "PhD candidate in Mathematics"
- #  links:
- #   - label: "Website"
- #     icon: "fas fa-fw fa-link"
- #     url: "https://"
- #   - label: "Twitter"
- #     icon: "fab fa-fw fa-twitter-square"
- #     url: "https://twitter.com/"
+   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
  #   - label: "GitHub"
  #     icon: "fab fa-fw fa-github"
  #     url: "https://github.com/"
@@ -80,10 +80,10 @@ author:
  #     url: "https://instagram.com/"
 
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+ # links:
+ #   - label: "Twitter"
+ #     icon: "fab fa-fw fa-twitter-square"
+ #     url: "https://twitter.com/"
  #   - label: "GitHub"
  #     icon: "fab fa-fw fa-github"
  #    url: "https://github.com/"
