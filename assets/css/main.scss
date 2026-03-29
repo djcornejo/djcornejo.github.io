@@ -14,10 +14,13 @@
 .author__avatar img {
   width: 100%;
   max-width: 250px;
-  height: auto;
-  aspect-ratio: 1 / 1;
 }
 
+@media (max-width: 768px) {
+  .author__avatar img {
+    max-width: 60%;
+  }
+}
 
 
 .author__content {
