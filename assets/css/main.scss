@@ -135,6 +135,7 @@
   color: #888888 !important;   /* Color gris */
   font-size: 0.85em !important; /* Tamaño más pequeño */
   display: inline-block;        /* Permite que el margen funcione mejor */
+  margin-left: 1.6em !important; /* ESTA ES LA CLAVE: Alinea justo debajo del texto */
 }
 
 /* 3. Ajuste opcional para el icono */
