@@ -126,19 +126,19 @@
 }
 
 .education-list li {
-  list-style-type: none !important; /* Refuerzo para quitar el punto */
+  list-style-type: none !important; 
   margin-bottom: 0.8em !important;
 }
 
-/* 2. Recupera el estilo de la institución (Gris y Pequeño) */
+/* 2. Estilo de la institución (Gris y Pequeño) */
 .edu-inst {
-  color: #888888 !important;   /* Color gris */
-  font-size: 0.85em !important; /* Tamaño más pequeño */
-  display: inline-block;        /* Permite que el margen funcione mejor */
-  margin-left: 1.9em !important; /* Aumentado de 1.6 a 1.9 para moverlo más a la derecha */
+  color: #888888 !important;   
+  font-size: 0.85em !important; 
+  display: block;               /* CAMBIADO: Ahora sí reconocerá el margen */
+  margin-left: 1.9em !important; /* Ajusta este número para moverlo a la derecha */
 }
 
-/* 3. Ajuste opcional para el icono */
+/* 3. Ajuste para el icono */
 .education-list i {
   margin-right: 8px;
   width: 1.25em;
