@@ -145,4 +145,10 @@
   text-align: center;
 }
 
+/* PRUEBA DE FUEGO: BORDE ROJO EN EL PERFIL */
+.sidebar .author__profile {
+  border: 5px solid red !important;
+  background-color: rgba(255, 0, 0, 0.1) !important;
+}
+
 .sidebar .author__profile a { opacity: 1 !important; }
