@@ -21,6 +21,7 @@ where I successfully defended my dissertation in March 2026 under the supervisio
       <li>Variational Analysis</li>
       <li>Convex Optimization</li>
       <li>Machine Learning</li>
+      <li>Data Analysis</li>
     </ul>
   </div>
 
