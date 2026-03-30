@@ -31,17 +31,17 @@ where I successfully defended my dissertation in March 2026 under the supervisio
       <li>
         <i class="fas fa-graduation-cap"></i>
         PhD in Mathematics, May 2026 <br>
-        <span class="edu-inst">North Carolina State University </span>
+        <span class="edu-inst">&nbsp; North Carolina State University </span>
       </li>
       <li>
         <i class="fas fa-graduation-cap"></i>
         MSc in Mathematics, 2023 <br>
-        <span class="edu-inst">North Carolina State University </span>
+        <span class="edu-inst">&nbsp;North Carolina State University </span>
       </li>
       <li>
         <i class="fas fa-graduation-cap"></i>
         BSc in Mathematics, 2020 <br>
-        <span class="edu-inst">Universidad Nacional de Ingeniería </span>
+        <span class="edu-inst">&nbsp;Universidad Nacional de Ingeniería </span>
       </li>
     </ul>
   </div>
