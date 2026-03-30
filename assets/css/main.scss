@@ -22,7 +22,7 @@
   width: 100%;
   max-width: 250px;
   height: auto;
-  border-radius: 0% !important;
+  border-radius: 0 !important;
   display: block;
   margin: 0 auto;
   border: none !important;
@@ -50,7 +50,7 @@
     width: 100px !important;   /* 👈 más pequeña */
     height: 100px !important;
     object-fit: cover !important;  /* clave para que no se vea ovalada */
-    border-radius: 0% !important;
+    border-radius: 0 !important;
     display: block;
   }
 
