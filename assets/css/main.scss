@@ -14,13 +14,33 @@
 
 /* Elimina cualquier opacidad del bloque author */
 
-/* This stops the entire author sidebar section from fading on hover */
-.sidebar .author__profile a:hover, 
-.sidebar .author__profile a:hover img,
-.sidebar .author__profile a:hover span {
+
+/* --- START FIX: Disable all hover fading in the sidebar --- */
+
+/* 1. Target the link that wraps the avatar and name */
+.sidebar .author__profile a,
+.sidebar .author__profile a:hover {
   opacity: 1 !important;
-  text-decoration: none !important; /* Optional: prevents underline on name */
+  text-decoration: none !important;
 }
+
+/* 2. Target the specific image and name inside that link */
+.sidebar .author__profile a:hover img,
+.sidebar .author__profile a:hover .author__name,
+.sidebar .author__profile a:hover .author__bio {
+  opacity: 1 !important;
+}
+
+/* 3. Global override for the theme's default link-image hover */
+.author__avatar:hover,
+.author__avatar img:hover {
+  opacity: 1 !important;
+}
+
+/* --- END FIX --- */
+
+
+
 
 
  
