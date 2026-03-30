@@ -183,10 +183,6 @@
   /*text-align: center;   */      /* centra el texto */
 }
 
-
-
-
-
 .social-icons {
   display: flex;
   justify-content: center;
@@ -249,6 +245,30 @@ div.author__avatar a:hover,
 /* 3. This stops the Name and Bio from fading */
 .author__content a:hover, 
 .author__name a:hover {
+  opacity: 1 !important;
+  text-decoration: none !important;
+}
+
+/* --- FIX FINAL PARA AVATAR Y NOMBRE --- */
+
+/* 1. Evita que el contenedor del avatar se vuelva transparente */
+.author__avatar:hover, 
+.author__avatar a:hover {
+  opacity: 1 !important;
+  text-decoration: none !important;
+}
+
+/* 2. Fuerza a la imagen a mantenerse sólida */
+.author__avatar img, 
+.author__avatar a:hover img {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* 3. Evita que el nombre y la bio se vuelvan transparentes al pasar el mouse */
+.author__content a:hover, 
+.author__name a:hover,
+.author__bio:hover {
   opacity: 1 !important;
   text-decoration: none !important;
 }
