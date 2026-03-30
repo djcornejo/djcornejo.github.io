@@ -135,7 +135,7 @@
   color: #888888 !important;   /* Color gris */
   font-size: 0.85em !important; /* Tamaño más pequeño */
   display: inline-block;        /* Permite que el margen funcione mejor */
-  margin-left: 2px;             /* Un pequeño ajuste de alineación */
+  margin-left: 3px;             /* Un pequeño ajuste de alineación */
 }
 
 /* 3. Ajuste opcional para el icono */
@@ -144,3 +144,5 @@
   width: 1.25em;
   text-align: center;
 }
+
+.sidebar .author__profile a { opacity: 1 !important; }
