@@ -5,6 +5,21 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";
 
+/* PRUEBA DE FUEGO: Si esto no funciona, Jekyll no está leyendo tu archivo */
+.author__profile, 
+.author__profile * {
+  opacity: 1 !important;
+  filter: none !important;
+  transition: none !important;
+}
+
+.author__profile a:hover, 
+.author__profile a:hover * {
+  opacity: 1 !important;
+  filter: none !important;
+  background: transparent !important;
+}
+
 /* ==========================================================================
    CONFIGURACIÓN PERSONALIZADA - DIEGO J. CORNEJO
    ========================================================================== */
