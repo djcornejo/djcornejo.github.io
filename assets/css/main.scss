@@ -14,8 +14,12 @@
 
 /* Elimina cualquier opacidad del bloque author */
 
-.author__avatar:hover {
+/* This stops the entire author sidebar section from fading on hover */
+.sidebar .author__profile a:hover, 
+.sidebar .author__profile a:hover img,
+.sidebar .author__profile a:hover span {
   opacity: 1 !important;
+  text-decoration: none !important; /* Optional: prevents underline on name */
 }
 
 
