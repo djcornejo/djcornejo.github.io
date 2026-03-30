@@ -11,6 +11,22 @@
 } */
  
 /* img[src="/assets/images/photo.jpeg"] {  */
+
+/* Elimina cualquier opacidad del bloque author */
+.author,
+.author-profile,
+.author__avatar,
+.author__content,
+.author__image,
+.author-bio,
+.author-name {
+  opacity: 1 !important;
+  background-color: transparent !important; /* por si la skin añade transparencia de fondo */
+}
+
+
+
+
  
 .author__avatar {
   background: transparent !important;
@@ -75,7 +91,6 @@
 
 
 .author {
-  opacity: 1 !important;
   max-width: none;  /* evita restricciones del contenedor */
 }
 
@@ -159,8 +174,4 @@
   font-size: 0.8em !important; /* cambia al tamaño que quieras */
  /*line-height: 0.5; */           /* opcional, para mejor lectura */
   /*text-align: center;   */      /* centra el texto */
-}
-
-.author {
-  opacity: 1 !important;
 }
