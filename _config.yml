@@ -60,6 +60,7 @@ author:
   name   : "Diego J. Cornejo"
   avatar : "/assets/images/photo.jpeg" 
   bio    : "PhD candidate in Mathematics"
+  custom_head: _includes/head.html
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
