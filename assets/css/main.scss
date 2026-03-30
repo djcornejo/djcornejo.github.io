@@ -63,12 +63,9 @@
   }
 }
 
-
-
 .author__content {
   text-align: center;
 }
-
 
 
 /* .author__avatar {
@@ -83,7 +80,6 @@
 
 /* Reduce tamaño de los títulos dentro de la lista si quieres */
 .page__content {
-  opacity: 1 !important; 
   font-weight: 600 !important;
   font-size: 0.7em !important;
   font-family: inherit !important;
@@ -166,6 +162,8 @@
 
 
 
-
+.archive__item img {
+  opacity: 1;
+}
 
 
