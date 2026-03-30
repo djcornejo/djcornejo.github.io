@@ -202,3 +202,17 @@
     transform: scale(1.2);
   }
 }
+
+
+
+/* Target the link inside the avatar div specifically */
+.author__avatar a:hover {
+  opacity: 1 !important;
+  text-decoration: none !important;
+}
+
+/* Target the image inside that link */
+.author__avatar a:hover img {
+  opacity: 1 !important;
+  filter: none !important;
+}
