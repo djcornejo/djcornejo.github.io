@@ -168,20 +168,3 @@
 
 
 
-
-.sidebar .author__avatar img {
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-
-/* 🔥 OVERRIDE TOTAL imagen avatar */
-.sidebar .author__avatar img,
-.sidebar .author__avatar img:hover,
-.page .author__avatar img,
-.page .author__avatar img:hover {
-  opacity: 1 !important;
-  filter: none !important;
-  mix-blend-mode: normal !important;
-  transition: none !important;
-}
