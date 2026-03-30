@@ -166,25 +166,6 @@
 
 
 
-/* 🔥 FIX COMPLETO imagen opaca en desktop */
-.author__avatar,
-.author__avatar img,
-.author__avatar a img {
-  opacity: 1 !important;
-  filter: none !important;
-  mix-blend-mode: normal !important;
-}
-
-/* eliminar cualquier efecto hover del tema */
-.author__avatar:hover,
-.author__avatar img:hover,
-.author__avatar a:hover img {
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-
-
 
 
 
@@ -203,8 +184,4 @@
   filter: none !important;
   mix-blend-mode: normal !important;
   transition: none !important;
-}
-
-.sidebar .author__avatar img {
-  opacity: 1 !important;
 }
