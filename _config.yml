@@ -107,6 +107,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      custom_includes: ["custom-js.html"]
 
 category_archive:
   type: liquid
@@ -115,6 +116,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-
-# Al final de _config.yml
-custom_css: /assets/css/main.scss
