@@ -30,7 +30,7 @@ where I successfully defended my dissertation in March 2026 under the supervisio
       <li>
         <i class="fas fa-graduation-cap"></i>
         PhD in Mathematics, May 2026 <br>
-        &nbsp;&nbsp;&nbsp;<span class="edu-inst">North Carolina State University </span>
+        &nbsp;&nbsp;<span class="edu-inst">North Carolina State University </span>
       </li>
       <li>
         <i class="fas fa-graduation-cap"></i>
