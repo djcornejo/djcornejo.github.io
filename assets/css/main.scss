@@ -162,8 +162,13 @@
 
 
 
-.archive__item img {
-  opacity: 1;
+
+.page__content img.avatar {
+  opacity: 0.90; /* Cambia 0.75 por el valor que quieras */
+  transition: opacity 0.3s ease; /* opcional, hace que la transición sea suave */
 }
 
-
+/* Si quieres que al pasar el mouse se vea completa */
+.page__content img.avatar:hover {
+  opacity: 1;
+}
