@@ -175,3 +175,25 @@
  /*line-height: 0.5; */           /* opcional, para mejor lectura */
   /*text-align: center;   */      /* centra el texto */
 }
+
+
+
+
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+
+  a i {
+    font-size: 2em;
+    transition: transform 0.2s;
+  }
+
+  a:hover i {
+    transform: scale(1.2);
+  }
+}
