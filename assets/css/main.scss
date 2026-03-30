@@ -1,34 +1,19 @@
 ---
-# Only the main Sass file needs front matter
+# Este archivo debe tener estas líneas de guiones para que Jekyll lo procese
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* PRUEBA DE FUEGO: Si esto no funciona, Jekyll no está leyendo tu archivo */
-.author__profile, 
-.author__profile * {
-  opacity: 1 !important;
-  filter: none !important;
-  transition: none !important;
-}
-
-.author__profile a:hover, 
-.author__profile a:hover * {
-  opacity: 1 !important;
-  filter: none !important;
-  background: transparent !important;
-}
-
 /* ==========================================================================
-   CONFIGURACIÓN PERSONALIZADA - DIEGO J. CORNEJO
+   SOLUCIÓN DEFINITIVA: ELIMINAR OPACIDAD EN SIDEBAR (AUTHOR PROFILE)
    ========================================================================== */
 
-/* 1. ELIMINAR EFECTO HOVER (FADE/BRILLO) EN SIDEBAR */
-.sidebar .author__profile a:hover,
-.sidebar .author__profile a:hover img,
-.sidebar .author__profile a:hover .author__name,
-.sidebar .author__profile a:hover .author__bio {
+/* 1. Fuerza la opacidad al 100% en todo momento (estático y hover) */
+.sidebar .author__profile a,
+.sidebar .author__profile img,
+.sidebar .author__profile .author__name,
+.sidebar .author__profile .author__bio {
   opacity: 1 !important;
   filter: none !important;
   -webkit-filter: none !important;
@@ -36,7 +21,7 @@
   color: inherit !important;
 }
 
-/* 2. ESTILO DEL AVATAR (IMAGEN) */
+/* 2. Estilo del Avatar (Imagen) */
 .author__avatar {
   background: transparent !important;
   padding: 0 !important;
@@ -44,8 +29,8 @@
 }
 
 .author__avatar img {
-  width: 100%;
-  max-width: 250px;
+  width: 100% !important;
+  max-width: 250px !important;
   height: auto;
   border-radius: 0 !important;
   display: block;
@@ -54,7 +39,7 @@
   box-shadow: none !important;
 }
 
-/* 3. ESTILO DE TEXTO Y CONTENIDO */
+/* 3. Estilo de Contenido y Bio */
 .author__content {
   text-align: center;
 }
@@ -64,26 +49,10 @@
   font-size: 0.8em !important;
 }
 
-.author {
-  max-width: none;
-}
-
-/* 4. PUBLICACIONES Y TEXTO DE PÁGINA */
+/* 4. Ajustes de la página y publicaciones */
 .page__content {
   font-weight: 600 !important;
   font-size: 0.7em !important;
-  font-family: inherit !important;
-  max-width: 75ch;
-}
-
-.page__content p {
-  max-width: none !important;
-}
-
-.page__content ol li,
-.page__content ul li {
-  margin-bottom: 0.2em !important;
-  line-height: 1.2em !important;
   max-width: 75ch;
 }
 
@@ -96,82 +65,51 @@
   color: #990000;
 }
 
-/* 5. EDUCACIÓN Y LISTAS */
-.edu-inst {
-  color: #888888;
-  font-size: 0.8em;
-}
-
-.education-list li {
-  display: block;
-  margin-bottom: 0.2em !important;
-}
-
-/* 6. COLUMNAS Y DISEÑO */
+/* 5. Diseño de columnas y listas */
 .two-columns {
   display: flex;
   gap: 2em;
 }
 
-.column {
-  flex: 1;
-}
-
-.column ul {
-  padding-left: 1.2em;
-}
-
-.page,
-.page__inner-wrap {
-  max-width: 100%;
-}
-
-/* 7. ICONOS SOCIALES */
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-  align-items: center;
-
-  a i {
-    font-size: 16px;
-    transition: transform 0.2s;
-  }
-
-  a:hover i {
-    transform: scale(1.2);
-  }
-}
-
-/* 8. RESPONSIVE (MÓVIL) */
 @media (max-width: 768px) {
+  .two-columns {
+    flex-direction: column;
+  }
+  
+  /* Layout móvil del autor */
   .author {
     display: flex !important;
     align-items: center;
     gap: 12px;
   }
-
+  
   .author__avatar {
-    float: none !important;
     flex: 0 0 auto;
     margin: 0 !important;
   }
-
+  
   .author__avatar img {
     width: 100px !important;
     height: 100px !important;
     object-fit: cover !important;
-    border-radius: 0 !important;
   }
-
+  
   .author__content {
-    float: none !important;
-    clear: none !important;
     flex: 1;
     text-align: left;
   }
+}
 
-  .two-columns {
-    flex-direction: column;
+/* 6. Iconos Sociales */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  a i {
+    font-size: 16px;
+    transition: transform 0.2s;
+  }
+  a:hover i {
+    transform: scale(1.2);
   }
 }
