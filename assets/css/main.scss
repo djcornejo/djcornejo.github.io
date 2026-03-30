@@ -13,18 +13,10 @@
 /* img[src="/assets/images/photo.jpeg"] {  */
 
 /* Elimina cualquier opacidad del bloque author */
-.author,
-.author-profile,
-.author__avatar,
-.author__content,
-.author__image,
-.author-bio,
-.author-name {
+
+.author__avatar:hover {
   opacity: 1 !important;
-  background-color: transparent !important; /* por si la skin añade transparencia de fondo */
 }
-
-
 
 
  
