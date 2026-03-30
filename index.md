@@ -12,16 +12,15 @@ I am a PhD candidate in [Mathematics](https://math.sciences.ncsu.edu) at [North 
 where I successfully defended my dissertation in March 2026 under the supervision of Prof. [Patrick L. Combettes](https://pcombet.math.ncsu.edu). I focus on monotone inclusion models and convex optimization problems, with applications in signal recovery, data science, and machine learning.
 
 
-
 <div class="two-columns">
   <div class="column">
     <h3>Interests</h3>
-    <ul>
-      <li>Monotone Operator Theory</li>
-      <li>Variational Analysis</li>
-      <li>Convex Optimization</li>
-      <li>Machine Learning</li>
-      <li>Data Analysis</li>
+    <ul style="padding-left: 1.2rem; margin-left: 0;">
+      <li style="list-style-type: disc;">Monotone Operator Theory</li>
+      <li style="list-style-type: disc;">Variational Analysis</li>
+      <li style="list-style-type: disc;">Convex Optimization</li>
+      <li style="list-style-type: disc;">Machine Learning</li>
+      <li style="list-style-type: disc;">Data Analysis</li>
     </ul>
   </div>
 
