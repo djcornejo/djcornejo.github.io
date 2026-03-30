@@ -15,35 +15,35 @@
 /* Elimina cualquier opacidad del bloque author */
 
 
-/* --- START FIX: Disable all hover fading in the sidebar --- */
+/* --- UNIVERSAL AVATAR HOVER FIX --- */
 
-/* 1. Target the link that wraps the avatar and name */
-.sidebar .author__profile a,
-.sidebar .author__profile a:hover {
+/* 1. This targets the link wrapping the avatar and name */
+.sidebar .author__profile a:hover,
+.sidebar .author__profile .author__avatar:hover,
+.sidebar .author__profile .author__content:hover {
   opacity: 1 !important;
   text-decoration: none !important;
 }
 
-/* 2. Target the specific image and name inside that link */
-.sidebar .author__profile a:hover img,
-.sidebar .author__profile a:hover .author__name,
-.sidebar .author__profile a:hover .author__bio {
+/* 2. This targets the image specifically to ensure it stays at 100% opacity */
+.sidebar .author__profile img, 
+.sidebar .author__profile a:hover img {
   opacity: 1 !important;
+  filter: none !important; /* In case the skin uses filters */
 }
 
-/* 3. Global override for the theme's default link-image hover */
-.author__avatar:hover,
-.author__avatar img:hover {
+/* 3. This targets the name and bio text */
+.author__name a:hover,
+.author__name:hover,
+.author__bio:hover {
   opacity: 1 !important;
+  color: inherit !important;
 }
 
 /* --- END FIX --- */
 
 
 
-
-
- 
 .author__avatar {
   background: transparent !important;
   padding: 0 !important;
