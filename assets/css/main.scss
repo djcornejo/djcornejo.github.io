@@ -3,38 +3,25 @@
 ---
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes";   
- 
-/* Alinea tu bio a la derecha o justificado */     
-/*.author__bio { 
-  text-align: justify;
-} */
- 
-/* img[src="/assets/images/photo.jpeg"] {  */
+@import "minimal-mistakes";
 
-/* Elimina cualquier opacidad del bloque author */
+/* ==========================================================================
+   CONFIGURACIÓN PERSONALIZADA - DIEGO J. CORNEJO
+   ========================================================================== */
 
-
-
-/* This targets the specific link wrapping your avatar and name */
-.sidebar .author__profile .author__avatar:hover,
+/* 1. ELIMINAR EFECTO HOVER (FADE/BRILLO) EN SIDEBAR */
 .sidebar .author__profile a:hover,
 .sidebar .author__profile a:hover img,
 .sidebar .author__profile a:hover .author__name,
 .sidebar .author__profile a:hover .author__bio {
   opacity: 1 !important;
-  text-decoration: none !important;
   filter: none !important;
+  -webkit-filter: none !important;
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
-/* Extra insurance: remove the fade from the link itself */
-.author__avatar:hover {
-  opacity: 1 !important;
-}
-
-
-
-
+/* 2. ESTILO DEL AVATAR (IMAGEN) */
 .author__avatar {
   background: transparent !important;
   padding: 0 !important;
@@ -52,56 +39,21 @@
   box-shadow: none !important;
 }
 
-/* 📱 móvil */
-@media (max-width: 768px) {
-
-  /* Contenedor principal */
-  .author {
-    display: flex !important;
-    align-items: center;
-    gap: 12px;
-  }
-
-  /* Imagen */
-  .author__avatar {
-    float: none !important;   /* 🔥 clave */
-    flex: 0 0 auto;
-    margin: 0 !important;
-  }
-
-  .author__avatar img {
-    width: 100px !important;   /* 👈 más pequeña */
-    height: 100px !important;
-    object-fit: cover !important;  /* clave para que no se vea ovalada */
-    border-radius: 0 !important;
-    display: block;
-  }
-
-  /* Texto */
-  .author__content {
-    float: none !important;   /* 🔥 clave */
-    clear: none !important;
-    flex: 1;
-    text-align: left;
-  }
-}
-
+/* 3. ESTILO DE TEXTO Y CONTENIDO */
 .author__content {
   text-align: center;
 }
 
-
-/* .author__avatar {
-  display: block;
-  text-align: center;
-} */
-
-
-.author {
-  max-width: none;  /* evita restricciones del contenedor */
+.author-bio {
+  color: #888888;
+  font-size: 0.8em !important;
 }
 
-/* Reduce tamaño de los títulos dentro de la lista si quieres */
+.author {
+  max-width: none;
+}
+
+/* 4. PUBLICACIONES Y TEXTO DE PÁGINA */
 .page__content {
   font-weight: 600 !important;
   font-size: 0.7em !important;
@@ -109,32 +61,38 @@
   max-width: 75ch;
 }
 
-/* Ajusta la lista de publicaciones: margen y tamaño */
+.page__content p {
+  max-width: none !important;
+}
+
 .page__content ol li,
 .page__content ul li {
-  margin-bottom: 0.2em !important; /* espacio entre items */
+  margin-bottom: 0.2em !important;
   line-height: 1.2em !important;
-/*  font-size: 0.7em;      /* tamaño más compacto */
-  max-width: 75ch;   /* aprox 80 caracteres por línea */
+  max-width: 75ch;
 }
 
-/* listas más compactas */
-.column ul {
-  padding-left: 1.2em;
-}
-
-/* Opcional: cambia color de links solo en las publicaciones */
 .page__content a {
   color: #cc0000;
   text-decoration: none;
 }
 
-/* Opcional: cambia color de links al pasar el mouse */
 .page__content a:hover {
-  color: #990000;        /* rojo oscuro */
+  color: #990000;
 }
 
+/* 5. EDUCACIÓN Y LISTAS */
+.edu-inst {
+  color: #888888;
+  font-size: 0.8em;
+}
 
+.education-list li {
+  display: block;
+  margin-bottom: 0.2em !important;
+}
+
+/* 6. COLUMNAS Y DISEÑO */
 .two-columns {
   display: flex;
   gap: 2em;
@@ -144,45 +102,16 @@
   flex: 1;
 }
 
-
-
-/* 👇 para pantallas pequeñas */
-@media (max-width: 768px) {
-  .two-columns {
-    flex-direction: column;
-  }
+.column ul {
+  padding-left: 1.2em;
 }
-
-
-
 
 .page,
 .page__inner-wrap {
   max-width: 100%;
 }
 
-
-.page__content p {
-  max-width: none !important;
-}
-
-.edu-inst {
-  color: #888888;     /* gris */
-  font-size: 0.8em;  /* más pequeño */
-}
-
-.education-list li {
-  display: block;       /* asegura que margin se aplique correctamente */
-  margin-bottom: 0.2em !important; /* aumenta espacio entre items */
-}
-
-.author-bio {
-  color: #888888;     /* gris */
-  font-size: 0.8em !important; /* cambia al tamaño que quieras */
- /*line-height: 0.5; */           /* opcional, para mejor lectura */
-  /*text-align: center;   */      /* centra el texto */
-}
-
+/* 7. ICONOS SOCIALES */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -199,76 +128,35 @@
   }
 }
 
+/* 8. RESPONSIVE (MÓVIL) */
+@media (max-width: 768px) {
+  .author {
+    display: flex !important;
+    align-items: center;
+    gap: 12px;
+  }
 
+  .author__avatar {
+    float: none !important;
+    flex: 0 0 auto;
+    margin: 0 !important;
+  }
 
-/* Target the link inside the avatar div specifically */
-.author__avatar a:hover {
-  opacity: 1 !important;
-  text-decoration: none !important;
-}
+  .author__avatar img {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
 
-/* Target the image inside that link */
-.author__avatar a:hover img {
-  opacity: 1 !important;
-  filter: none !important;
-}
+  .author__content {
+    float: none !important;
+    clear: none !important;
+    flex: 1;
+    text-align: left;
+  }
 
-
-
-/* This targets the <a> tag inside the avatar div specifically */
-div.author__avatar a:hover, 
-.author__avatar a:hover img {
-  opacity: 1.0 !important;
-  filter: none !important;
-  -webkit-filter: none !important;
-  text-decoration: none !important;
-}
-
-/* This targets the Name and Bio links specifically */
-.author__content a:hover {
-  opacity: 1.0 !important;
-}
-
-
-/* 1. This stops the image from fading */
-.author__avatar img:hover {
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-/* 2. This stops the link wrapper from fading (the main culprit) */
-.author__avatar a:hover {
-  opacity: 1 !important;
-  background-color: transparent !important;
-}
-
-/* 3. This stops the Name and Bio from fading */
-.author__content a:hover, 
-.author__name a:hover {
-  opacity: 1 !important;
-  text-decoration: none !important;
-}
-
-/* --- FIX FINAL PARA AVATAR Y NOMBRE --- */
-
-/* 1. Evita que el contenedor del avatar se vuelva transparente */
-.author__avatar:hover, 
-.author__avatar a:hover {
-  opacity: 1 !important;
-  text-decoration: none !important;
-}
-
-/* 2. Fuerza a la imagen a mantenerse sólida */
-.author__avatar img, 
-.author__avatar a:hover img {
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-/* 3. Evita que el nombre y la bio se vuelvan transparentes al pasar el mouse */
-.author__content a:hover, 
-.author__name a:hover,
-.author__bio:hover {
-  opacity: 1 !important;
-  text-decoration: none !important;
+  .two-columns {
+    flex-direction: column;
+  }
 }
