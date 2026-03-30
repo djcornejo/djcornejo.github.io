@@ -17,12 +17,7 @@ title: Diego J. Cornejo
 logo: "/assets/images/logo_ncsu.png"
 email: djcornej@ncsu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my academic and personal space, where I share research, articles,
-  and resources from my field of study, along with experiences aimed at inspiring 
-  and providing value to students, colleagues, and curious minds.
-  #Write an awesome description for your new site here. You can edit this
-  #line in _config.yml. It will appear in your document head meta (for
-  #Google search results) and in your feed.xml site description.
+  Diego J. Cornejo's personal website.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "contrast"
@@ -65,16 +60,22 @@ author:
   name   : "Diego J. Cornejo"
   avatar : "/assets/images/photo.jpeg" 
   bio    : "PhD candidate in Mathematics"
- #  links:
- #   - label: "Twitter"
- #     icon: "fab fa-fw fa-twitter-square"
- #     url: "https://twitter.com/"
- #   - label: "GitHub"
- #     icon: "fab fa-fw fa-github"
- #     url: "https://github.com/"
- #   - label: "Instagram"
- #     icon: "fab fa-fw fa-instagram"
- #     url: "https://instagram.com/"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:djcornej@ncsu.edu"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://google.com"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/grantmcdermott"
+    - label: "Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://google.com"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org"
 
 footer:
  # links:
