@@ -15,32 +15,23 @@
 /* Elimina cualquier opacidad del bloque author */
 
 
-/* --- UNIVERSAL AVATAR HOVER FIX --- */
 
-/* 1. This targets the link wrapping the avatar and name */
-.sidebar .author__profile a:hover,
+/* This targets the specific link wrapping your avatar and name */
 .sidebar .author__profile .author__avatar:hover,
-.sidebar .author__profile .author__content:hover {
+.sidebar .author__profile a:hover,
+.sidebar .author__profile a:hover img,
+.sidebar .author__profile a:hover .author__name,
+.sidebar .author__profile a:hover .author__bio {
   opacity: 1 !important;
   text-decoration: none !important;
+  filter: none !important;
 }
 
-/* 2. This targets the image specifically to ensure it stays at 100% opacity */
-.sidebar .author__profile img, 
-.sidebar .author__profile a:hover img {
+/* Extra insurance: remove the fade from the link itself */
+.author__avatar:hover {
   opacity: 1 !important;
-  filter: none !important; /* In case the skin uses filters */
 }
 
-/* 3. This targets the name and bio text */
-.author__name a:hover,
-.author__name:hover,
-.author__bio:hover {
-  opacity: 1 !important;
-  color: inherit !important;
-}
-
-/* --- END FIX --- */
 
 
 
