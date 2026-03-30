@@ -219,6 +219,16 @@
 
 
 
-body {
-  border: 10px solid red !important;
+/* This targets the <a> tag inside the avatar div specifically */
+div.author__avatar a:hover, 
+.author__avatar a:hover img {
+  opacity: 1.0 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  text-decoration: none !important;
+}
+
+/* This targets the Name and Bio links specifically */
+.author__content a:hover {
+  opacity: 1.0 !important;
 }
