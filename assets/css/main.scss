@@ -146,3 +146,19 @@
 }
 
 .sidebar .author__profile a { opacity: 1 !important; }
+
+.two-columns {
+  .column {
+    // Esto selecciona SOLO la lista de Interests
+    ul:not(.education-list) {
+      margin-left: 0;
+      padding-left: 1rem; // Reduce este número para moverlo más a la izquierda
+      
+      li {
+        list-style-type: disc; // Mantiene tus puntos visibles
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+  }
+}
