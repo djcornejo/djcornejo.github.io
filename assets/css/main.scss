@@ -69,6 +69,7 @@
 .two-columns {
   display: flex;
   gap: 2em;
+ justify-content: space-between;
 }
 
 @media (max-width: 768px) {
@@ -145,7 +146,7 @@
   text-align: center;
 }
 
-.sidebar .author__profile a { opacity: 1 !important; }
+.sidebar .author__profile a { opacity: 2 !important; }
 
 
 
