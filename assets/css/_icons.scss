@@ -1,1 +1,24 @@
+/* Iconos Sociales */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  a i {
+    font-size: 16px;
+    transition: transform 0.2s;
+  }
+  a:hover i {
+    transform: scale(1.4);
+  }
+}
+
+/* Alinea el enlace del feed a la izquierda */
+.social-icons {
+  justify-content: flex-start !important; /* Cambia center por flex-start */
+}
+
+/* O si solo quieres afectar al icono del RSS específicamente */
+.social-icons a[href*="feed.xml"] {
+  margin-right: auto; 
+}
 
