@@ -149,15 +149,23 @@
 
 .two-columns {
   .column {
-    // Esto selecciona SOLO la lista de Interests
+    // Solo para la lista de Interests
     ul:not(.education-list) {
       margin-left: 0;
-      padding-left: 0; // Reduce este número para moverlo más a la izquierda
+      padding-left: 0;
       
       li {
-        list-style-type: disc; // Mantiene tus puntos visibles
+        // 'inside' mete el punto dentro del bloque de texto, 
+        // eliminando el espacio reservado afuera.
+        list-style-position: inside; 
+        list-style-type: disc;
+        
         margin-left: 0;
         padding-left: 0;
+        
+        // Un pequeño ajuste para que si el texto es largo, 
+        // no se meta debajo del punto en la segunda línea:
+        text-indent: -0.2em; 
       }
     }
   }
