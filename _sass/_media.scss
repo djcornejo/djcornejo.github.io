@@ -13,7 +13,8 @@
   .author__avatar {
     flex: 0 0 auto !important;
     width: auto !important;
-    margin: 0 !important;
+    margin-right: 15px !important; /* Espacio entre la foto y tu nombre */
+    /*margin: 0 !important;*/
   }
   
   .author__avatar img {
