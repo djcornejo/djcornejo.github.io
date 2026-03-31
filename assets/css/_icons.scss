@@ -22,3 +22,25 @@
   margin-right: auto; 
 }
 
+
+/* --- COLORES PARA ICONOS DEL PERFIL (CORREGIDO) --- */
+
+/* 1. Email (Usa la clase del contenedor .author__urls) */
+.author__urls .fa-envelope {
+  color: #D44638 !important;
+}
+
+/* 2. Google Scholar */
+.author__urls .fa-graduation-cap {
+  color: #4285F4 !important;
+}
+
+/* 3. ORCID */
+.author__urls .fa-orcid {
+  color: #A6CE39 !important;
+}
+
+/* EXTRA: Asegurar que el enlace no fuerce el color gris sobre el icono */
+.author__urls a i {
+  color: inherit; 
+}
