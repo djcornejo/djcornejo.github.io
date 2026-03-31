@@ -172,19 +172,3 @@
 }
 
 
-// Ajuste para el pie de página / Feed
-footer, 
-.feed-container, 
-.social-links {
-  text-align: left !important; // Fuerza la alineación a la izquierda
-  padding-left: 0;
-  margin-left: 0;
-  display: flex;               // Si es un contenedor flex, alineamos al inicio
-  justify-content: flex-start;
-}
-
-// Si el enlace de "Feed" está suelto o en un párrafo específico
-p.feed, .rss-subscribe {
-  text-align: left;
-  margin-left: 0;
-}
