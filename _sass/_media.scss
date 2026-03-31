@@ -2,35 +2,27 @@
   .two-columns {
     flex-direction: column;
   }
-  
-/* 3. Aseguramos que el perfil sea una fila (Foto | Texto) */
+
+  /* Layout móvil del autor */
   .author {
     display: flex !important;
-    flex-direction: row !important; /* Obliga a que sea uno al lado del otro */
-    align-items: center !important;
-    text-align: left !important;    /* Alinea tu nombre a la izquierda */
+    align-items: center;
+    gap: 12px;
   }
-  
-/* 2. Arreglamos el contenedor para que NO flote encima del texto */
+
   .author__avatar {
-    display: flex !important;    /* Mantiene el comportamiento de bloque flexible */
-    flex: 0 0 auto !important;   /* Evita que el contenedor colapse */
-    width: auto !important;
-    margin-right: 20px !important; /* Separa la foto de tu nombre/iconos */
-    margin-bottom: 0 !important;
+    flex: 0 0 auto;
+    margin: 0 !important;
   }
-  
- /* 1. Controlamos la imagen sin romper el flujo */ 
-.author__avatar img {
-    width: 120px !important;   /* Ajusta este número al tamaño que desees */
-    height: 120px !important;
-    min-width: 120px !important; 
-    max-width: 120px !important;
-    aspect-ratio: 1 / 1 !important;
+
+  .author__avatar img {
+    width: 100px !important;
+    height: 100px !important;
+    width: 150px !important;
+    height: 150px !important;
     object-fit: cover !important;
-    border-radius: 4px !important; /* Rectangular con esquinas suaves */
   }
-  
+
   .author__content {
     flex: 1;
     text-align: left;
