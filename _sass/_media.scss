@@ -25,7 +25,7 @@
     min-width: 150px !important; /* Evita que Safari la encoja */
     max-width: 150px !important;
     object-fit: cover !important;
-    aspect-ratio: 1 / 1 !important; /* En móvil, mejor cuadrada para que no flote */
+    aspect-ratio: 3 / 4 !important; /* En móvil, mejor cuadrada para que no flote */
     border-radius: 4px !important;
   }
 
