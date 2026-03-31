@@ -1,35 +1,45 @@
 @media (max-width: 768px) {
   .two-columns {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
-  /* Contenedor del autor: Asegura que sea una fila (Foto | Texto) */
+  /* Contenedor del autor: Fila limpia (Foto | Texto) */
   .author {
     display: flex !important;
-    flex-direction: row !important; /* Fuerza que sea uno al lado del otro */
+    flex-direction: row !important; /* Mantiene uno al lado del otro */
     align-items: center !important;
     gap: 20px; /* Espacio entre foto y nombre */
     text-align: left !important;
+    overflow: visible !important; /* Importante para que no se corte la altura */
   }
 
-  /* Contenedor de la foto: Vital para que Safari no la colapse */
+  /* Contenedor de la foto (VITAL PARA SAFARI): */
+  /* Definimos el ancho que queremos (130px) */
   .author__avatar {
-    flex: 0 0 150px !important; /* Safari leerá esto para dar espacio a la foto */
-    width: 150px !important;
+    flex: 0 0 130px !important; 
+    width: 130px !important;
     margin: 0 !important;
+    display: block !important;
   }
 
+  /* La Imagen: Aquí aplicamos el aspecto 3/4 */
   .author__avatar img {
-    width: 150px !important;
-    height: 150px !important;
-    min-width: 150px !important; /* Evita que Safari la encoja */
-    max-width: 150px !important;
-    object-fit: cover !important;
-    aspect-ratio: 3 / 4 !important; /* En móvil, mejor cuadrada para que no flote */
+    /* 1. Definimos el ANCHO */
+    width: 130px !important;
+    min-width: 130px !important; /* Seguro para Safari */
+    max-width: 130px !important;
+    
+    /* 2. Definimos la ALTURA (Calculada: 130px * 4 / 3 ≈ 173px) */
+    /* Usar height: auto a veces falla en Safari con flexbox, mejor fijo */
+    height: 173px !important; 
+    
+    /* 3. Definimos la Proporción */
+    aspect-ratio: 3 / 4 !important; /* Vertical */
+    object-fit: cover !important;  /* Evita que se deforme */
     border-radius: 4px !important;
   }
 
-  /* Contenedor de texto: Para que ocupe el resto del ancho */
+  /* Contenedor de texto: Ocupa el resto */
   .author__content {
     flex: 1 !important;
     text-align: left !important;
