@@ -1,46 +1,59 @@
 @media (max-width: 768px) {
-
- .two-columns {
+  .two-columns {
     flex-direction: column;
   }
 
+  /* 1. Contenedor: Mantiene la foto a la izquierda y el texto a la derecha */
   .author {
     display: flex !important;
-    flex-direction: row !important; 
-    align-items: center !important;
-    /* Eliminamos gap y usamos margen directo para mayor compatibilidad */
+    flex-direction: row !important;
+    align-items: flex-start !important; /* Alinea todo al tope de la foto */
+    gap: 20px;
     text-align: left !important;
   }
 
+  /* 2. Tu foto rectangular (110x150) */
   .author__avatar {
-    flex: 0 0 110px !important; 
-    width: 110px !important;
+    flex: 0 0 110px !important;
     margin: 0 !important;
   }
 
   .author__avatar img {
     width: 110px !important;
     height: 150px !important;
-    min-width: 110px !important; 
-    max-width: 110px !important;
+    min-width: 110px !important;
     object-fit: cover !important;
     border-radius: 4px !important;
   }
 
-  /* ESTA ES LA CLAVE PARA EL ESPACIO */
+  /* 3. Ajuste de distancias para subir los iconos */
   .author__content {
     flex: 1 !important;
-    text-align: left !important;
-    margin: 0 !important;
-    /* Forzamos el espacio desde aquí (puedes subirlo a 25px o 30px) */
-    padding-left: 20px !important; 
-    border: none !important;
-  }
-
-  /* Aseguramos que el nombre no tenga márgenes locos */
-  .author__name {
     margin: 0 !important;
     padding: 0 !important;
   }
- 
+
+  .author__name {
+    margin: 0 0 2px 0 !important; /* Casi sin espacio abajo del nombre */
+  }
+
+  .author__bio {
+    margin: 0 0 5px 0 !important; /* Espacio mínimo debajo de la bio */
+  }
+
+  /* LA CLAVE: Subir la sección de Email/Orcid */
+  .author__urls-wrapper {
+    margin-top: -15px !important; /* "Succiona" los iconos hacia arriba */
+    padding: 0 !important;
+  }
+
+  .author__urls {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+  }
+
+  .author__urls li {
+    margin-bottom: 2px !important; /* Iconos más pegaditos entre sí */
+  }
 }
