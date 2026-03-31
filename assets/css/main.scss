@@ -5,6 +5,11 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+/* ==========================================================================
+   MIS PERSONALIZACIONES
+   ========================================================================== */
+@import "media"
+
 /* ========================================================================== 
    SOLUCIÓN DEFINITIVA: ELIMINAR OPACIDAD EN SIDEBAR (AUTHOR PROFILE)
    ========================================================================== */
@@ -76,34 +81,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
-  .two-columns {
-    flex-direction: column;
-  }
-  
-  /* Layout móvil del autor */
-  .author {
-    display: flex !important;
-    align-items: center;
-    gap: 12px;
-  }
-  
-  .author__avatar {
-    flex: 0 0 auto;
-    margin: 0 !important;
-  }
-  
-  .author__avatar img {
-    width: 100px !important;
-    height: 100px !important;
-    object-fit: cover !important;
-  }
-  
-  .author__content {
-    flex: 1;
-    text-align: left;
-  }
-}
+
 
 /* 6. Iconos Sociales */
 .social-icons {
