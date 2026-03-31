@@ -32,6 +32,10 @@
   width: 100% !important;
   max-width: 250px !important;
   height: auto;
+
+  aspect-ratio: 3 / 4;        
+  object-fit: cover;
+ 
   border-radius: 0 !important;
   display: block;
   margin: 0 auto;
