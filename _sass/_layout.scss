@@ -1,0 +1,54 @@
+/* 2. Estilo del Avatar (Imagen) */
+.author__avatar {
+  background: transparent !important;
+  padding: 0 !important;
+  text-align: center;
+}
+
+.author__avatar img {
+  width: 100% !important;
+  max-width: 200px !important;
+  height: auto;
+
+  aspect-ratio: 3 / 4;        
+  object-fit: cover;
+ 
+  border-radius: 0 !important;
+  display: block;
+  margin: 0 auto;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 3. Estilo de Contenido y Bio */
+.author__content {
+  text-align: center;
+}
+
+.author-bio {
+  color: #888888;
+  font-size: 0.8em !important;
+}
+
+/* 4. Ajustes de la página y publicaciones */
+.page__content {
+  font-weight: 600 !important;
+  font-size: 0.7em !important;
+  max-width: 75ch;
+}
+
+.page__content a {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+.page__content a:hover {
+  color: #990000;
+}
+
+/* 5. Diseño de columnas y listas */
+.two-columns {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+}
