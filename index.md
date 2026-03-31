@@ -20,7 +20,7 @@ where I successfully defended my dissertation in March 2026 under the supervisio
       <li style="list-style-type: disc;">Variational Analysis</li>
       <li style="list-style-type: disc;">Convex Optimization</li>
       <li style="list-style-type: disc;">Machine Learning</li>
-      <li style="list-style-type: disc;">Data Analysis</li>
+      <li style="list-style-type: disc;">Data Analysissss</li>
     </ul>
   </div>
 
