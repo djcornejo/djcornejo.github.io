@@ -180,24 +180,19 @@
 
 
 
-/* --- COLOR PARA ICONOS SOCIALES ESPECÍFICOS --- */
+/* --- COLORES PARA ICONOS DE LA BIO --- */
 
-/* 1. Email (Sobre) - Normalmente un tono gris/azul o rojo */
-.author__links a[href^="mailto:"] i {
-  color: #34a853 !important; /* Verde estilo Google/Email, cámbialo si prefieres */
+/* 1. Icono de Email (fa-envelope) */
+.author__links .fa-envelope {
+  color: #D44638 !important; /* Rojo Gmail */
 }
 
-/* 2. Google Scholar (Birrete) - Azul académico */
-.author__links a[href*="scholar.google"] i {
-  color: #4285f4 !important; /* Azul Google */
+/* 2. Icono de Google Scholar (fa-graduation-cap) */
+.author__links .fa-graduation-cap {
+  color: #4285F4 !important; /* Azul Google */
 }
 
-/* 3. ORCID (Logo) - Su color de marca es un verde lima específico */
-.author__links a[href*="orcid.org"] i {
-  color: #a6ce39 !important; /* Verde oficial de ORCID */
-}
-
-/* Opcional: Mantener el efecto hover que ya tenías (escala) */
-.author__links a:hover i {
-  opacity: 0.8; /* Un pequeño cambio de opacidad al pasar el ratón */
+/* 3. Icono de ORCID (fa-orcid) */
+.author__links .fa-orcid {
+  color: #A6CE39 !important; /* Verde oficial ORCID */
 }
