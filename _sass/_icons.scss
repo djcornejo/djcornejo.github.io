@@ -1,0 +1,46 @@
+/* Iconos Sociales */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  a i {
+    font-size: 16px;
+    transition: transform 0.2s;
+  }
+  a:hover i {
+    transform: scale(1.4);
+  }
+}
+
+/* Alinea el enlace del feed a la izquierda */
+.social-icons {
+  justify-content: flex-start !important; /* Cambia center por flex-start */
+}
+
+/* O si solo quieres afectar al icono del RSS específicamente */
+.social-icons a[href*="feed.xml"] {
+  margin-right: auto; 
+}
+
+
+/* --- COLORES PARA ICONOS DEL PERFIL (CORREGIDO) --- */
+
+/* 1. Email (Usa la clase del contenedor .author__urls) */
+.author__urls .fa-envelope {
+  color: #D44638 !important;
+}
+
+/* 2. Google Scholar */
+.author__urls .fa-graduation-cap {
+  color: #4285F4 !important;
+}
+
+/* 3. ORCID */
+.author__urls .fa-orcid {
+  color: #A6CE39 !important;
+}
+
+/* EXTRA: Asegurar que el enlace no fuerce el color gris sobre el icono */
+.author__urls a i {
+  color: inherit; 
+}
