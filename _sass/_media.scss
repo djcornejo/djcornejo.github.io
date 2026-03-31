@@ -3,33 +3,31 @@
     flex-direction: column;
   }
 
-  /* Contenedor del autor: Asegura que sea una fila (Foto | Texto) */
   .author {
     display: flex !important;
-    flex-direction: row !important; /* Fuerza que sea uno al lado del otro */
+    flex-direction: row !important; 
     align-items: center !important;
-    gap: 20px; /* Espacio entre foto y nombre */
+    gap: 20px; 
     text-align: left !important;
   }
 
-  /* Contenedor de la foto: Vital para que Safari no la colapse */
+  /* Ajustamos el contenedor al nuevo ancho de 110px */
   .author__avatar {
-    flex: 0 0 150px !important; /* Safari leerá esto para dar espacio a la foto */
-    width: 150px !important;
+    flex: 0 0 110px !important; /* IMPORTANTE: Safari reserva este espacio */
+    width: 110px !important;
     margin: 0 !important;
   }
 
   .author__avatar img {
-    width: 150px !important;
-    height: 150px !important;
-    min-width: 150px !important; /* Evita que Safari la encoja */
-    max-width: 150px !important;
-    object-fit: cover !important;
-    aspect-ratio: 1 / 1 !important; /* En móvil, mejor cuadrada para que no flote */
+    width: 110px !important;
+    height: 150px !important; /* Más alta que ancha = Rectángulo */
+    min-width: 110px !important; 
+    max-width: 110px !important;
+    object-fit: cover !important; /* Evita que tu cara se vea estirada */
+    /* aspect-ratio: 1/1 eliminado como pediste */
     border-radius: 4px !important;
   }
 
-  /* Contenedor de texto: Para que ocupe el resto del ancho */
   .author__content {
     flex: 1 !important;
     text-align: left !important;
