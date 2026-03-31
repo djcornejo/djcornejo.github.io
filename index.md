@@ -15,7 +15,7 @@ where I successfully defended my dissertation in March 2026 under the supervisio
 <div class="two-columns">
   <div class="column">
     <h3>Interests</h3>
-    <ul style="padding-left: 1.2rem; margin-left: 0;">
+    <ul style="padding-left: 0rem; margin-left: 0;">
       <li style="list-style-type: disc;">Monotone Operator Theory</li>
       <li style="list-style-type: disc;">Variational Analysis</li>
       <li style="list-style-type: disc;">Convex Optimization</li>
