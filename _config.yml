@@ -63,7 +63,8 @@ author:
   custom_head: _includes/head.html
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope"
+      #icon: "fas fa-fw fa-envelope"
+      icon: "fas fa-envelope-square"
       url: "mailto:djcornej@ncsu.edu"
     # - label: "GitHub"
     #   icon: "fab fa-fw fa-github"
