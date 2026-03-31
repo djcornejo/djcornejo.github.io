@@ -1,36 +1,41 @@
 @media (max-width: 768px) {
-  .two-columns {
-    flex-direction: column;
-  }
+  /* ... tu código de .two-columns ... */
 
   .author {
     display: flex !important;
     flex-direction: row !important; 
     align-items: center !important;
-    gap: 20px; 
+    /* Eliminamos gap y usamos margen directo para mayor compatibilidad */
     text-align: left !important;
   }
 
-  /* Ajustamos el contenedor al nuevo ancho de 110px */
   .author__avatar {
-    flex: 0 0 110px !important; /* IMPORTANTE: Safari reserva este espacio */
+    flex: 0 0 110px !important; 
     width: 110px !important;
     margin: 0 !important;
   }
 
   .author__avatar img {
     width: 110px !important;
-    height: 150px !important; /* Más alta que ancha = Rectángulo */
+    height: 150px !important;
     min-width: 110px !important; 
     max-width: 110px !important;
-    object-fit: cover !important; /* Evita que tu cara se vea estirada */
-    /* aspect-ratio: 1/1 eliminado como pediste */
+    object-fit: cover !important;
     border-radius: 4px !important;
   }
 
+  /* ESTA ES LA CLAVE PARA EL ESPACIO */
   .author__content {
     flex: 1 !important;
     text-align: left !important;
+    margin: 0 !important;
+    /* Forzamos el espacio desde aquí (puedes subirlo a 25px o 30px) */
+    padding-left: 20px !important; 
+    border: none !important;
+  }
+
+  /* Aseguramos que el nombre no tenga márgenes locos */
+  .author__name {
     margin: 0 !important;
     padding: 0 !important;
   }
