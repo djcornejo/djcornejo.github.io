@@ -27,41 +27,20 @@
     border-radius: 4px !important;
   }
 
-.author__content {
+  /* ESTA ES LA CLAVE PARA EL ESPACIO */
+  .author__content {
     flex: 1 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important; /* Centra el bloque de texto verticalmente respecto a la foto */
-    padding-left: 20px !important;
+    text-align: left !important;
+    margin: 0 !important;
+    /* Forzamos el espacio desde aquí (puedes subirlo a 25px o 30px) */
+    padding-left: 20px !important; 
+    border: none !important;
   }
 
-  /* 1. Pegamos el nombre y la bio para ganar espacio */
+  /* Aseguramos que el nombre no tenga márgenes locos */
   .author__name {
     margin: 0 !important;
-    line-height: 1.2 !important;
+    padding: 0 !important;
   }
-
-  .author__bio {
-    margin: 2px 0 8px 0 !important; /* Muy poco margen superior e inferior */
-    font-size: 0.9em !important;
-    line-height: 1.2 !important;
-  }
-
-  /* 2. Ajustamos la "burbuja" de redes sociales (Email, Orcid, etc.) */
-  .author__urls-wrapper {
-    margin-top: 0 !important; /* Elimina el espacio extra arriba */
-    display: flex !important;
-  }
-
-  .author__urls {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    list-style: none !important;
-  }
-
-  /* 3. Botón de Follow (si lo usas, para que no empuje todo) */
-  .author__urls-wrapper button {
-    margin-bottom: 5px !important;
-    padding: 5px 10px !important;
-  }
+ 
 }
