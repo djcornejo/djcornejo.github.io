@@ -3,28 +3,37 @@
     flex-direction: column;
   }
 
-  /* Layout móvil del autor */
+  /* Contenedor del autor: Asegura que sea una fila (Foto | Texto) */
   .author {
     display: flex !important;
-    align-items: center;
-    gap: 12px;
+    flex-direction: row !important; /* Fuerza que sea uno al lado del otro */
+    align-items: center !important;
+    gap: 20px; /* Espacio entre foto y nombre */
+    text-align: left !important;
   }
 
+  /* Contenedor de la foto: Vital para que Safari no la colapse */
   .author__avatar {
-    flex: 0 0 auto;
+    flex: 0 0 150px !important; /* Safari leerá esto para dar espacio a la foto */
+    width: 150px !important;
     margin: 0 !important;
   }
 
   .author__avatar img {
-    width: 100px !important;
-    height: 100px !important;
     width: 150px !important;
     height: 150px !important;
+    min-width: 150px !important; /* Evita que Safari la encoja */
+    max-width: 150px !important;
     object-fit: cover !important;
+    aspect-ratio: 1 / 1 !important; /* En móvil, mejor cuadrada para que no flote */
+    border-radius: 4px !important;
   }
 
+  /* Contenedor de texto: Para que ocupe el resto del ancho */
   .author__content {
-    flex: 1;
-    text-align: left;
+    flex: 1 !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
