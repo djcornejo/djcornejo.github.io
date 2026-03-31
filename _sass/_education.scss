@@ -1,0 +1,27 @@
+/* Elimina el punto (bullet) de la lista de educación */
+.education-list {
+  list-style: none !important;
+  list-style-type: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.education-list li {
+  list-style-type: none !important; 
+  margin-bottom: 0.8em !important;
+}
+
+/* Estilo de la institución (Gris y Pequeño) */
+.edu-inst {
+  color: #888888 !important;   
+  font-size: 0.8em !important; 
+  display: block;               /* CAMBIADO: Ahora sí reconocerá el margen */
+  margin-left: 1.91em !important; /* Ajusta este número para moverlo a la derecha */
+}
+
+/* Ajuste para el icono */
+.education-list i {
+  margin-right: 8px;
+  width: 1.25em;
+  text-align: center;
+}
