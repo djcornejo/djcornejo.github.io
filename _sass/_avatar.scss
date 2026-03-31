@@ -1,0 +1,17 @@
+/* ========================================================================== 
+   SOLUCIÓN DEFINITIVA: ELIMINAR OPACIDAD EN SIDEBAR (AUTHOR PROFILE)
+   ========================================================================== */
+
+/* 1. Fuerza la opacidad al 100% en todo momento (estático y hover) */
+.sidebar .author__profile a,
+.sidebar .author__profile img,
+.sidebar .author__profile .author__name, 
+.sidebar .author__profile .author__bio {
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.sidebar .author__profile a { opacity: 1 !important; }
