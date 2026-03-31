@@ -9,6 +9,7 @@
    MIS PERSONALIZACIONES
    ========================================================================== */
 @import "media"
+ @import "icons"
 
 /* ========================================================================== 
    SOLUCIÓN DEFINITIVA: ELIMINAR OPACIDAD EN SIDEBAR (AUTHOR PROFILE)
@@ -83,19 +84,7 @@
 
 
 
-/* 6. Iconos Sociales */
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-  a i {
-    font-size: 16px;
-    transition: transform 0.2s;
-  }
-  a:hover i {
-    transform: scale(1.4);
-  }
-}
+
 
 
 /* --- ESTILO DE EDUCACIÓN (SIN PUNTOS Y UNIVERSIDAD EN GRIS) --- */
@@ -149,16 +138,6 @@
 }
 
 
-
-/* Alinea el enlace del feed a la izquierda */
-.social-icons {
-  justify-content: flex-start !important; /* Cambia center por flex-start */
-}
-
-/* O si solo quieres afectar al icono del RSS específicamente */
-.social-icons a[href*="feed.xml"] {
-  margin-right: auto; 
-}
 
 
 
