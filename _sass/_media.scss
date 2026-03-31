@@ -1,5 +1,8 @@
 @media (max-width: 768px) {
-  /* ... tu código de .two-columns ... */
+
+ .two-columns {
+    flex-direction: column;
+  }
 
   .author {
     display: flex !important;
