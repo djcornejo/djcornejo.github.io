@@ -10,4 +10,24 @@
   color: inherit !important;
 }
 
-.sidebar .author__profile a { opacity: 1 !important; }
+/* ==========================================================================
+   ELIMINAR TRANSPARENCIA DEL AUTOR (SIEMPRE NÍTIDO)
+   ========================================================================== */
+
+/* 1. Forzamos la visibilidad total en el contenedor del perfil */
+.sidebar .author__profile {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* 2. Anulamos específicamente el efecto de "desvanecido" del tema */
+.author__urls-wrapper, 
+.author__content, 
+.author__avatar {
+  opacity: 1 !important;
+}
+
+/* 3. Quitamos la transición para que no intente hacer efectos de luces */
+.sidebar .author__profile * {
+  transition: none !important;
+}
