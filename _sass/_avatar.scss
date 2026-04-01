@@ -66,3 +66,77 @@
 .author__urls li {
   color: #333 !important; /* O el color oscuro que use tu sitio */
 }
+
+
+/* ==========================================================================
+   FORZAR COLOR NEGRO Y NITIDEZ TOTAL (SIN HOVER)
+   ========================================================================== */
+
+/* 1. Forzamos que el nombre, la bio y los links sean negros/oscuros siempre */
+.author__name, 
+.author__bio, 
+.author__urls-wrapper,
+.author__urls a,
+.author__urls li {
+  color: #333333 !important; /* Cambia a #000000 si lo quieres aún más negro */
+  opacity: 1 !important;
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+
+/* 2. Minimal Mistakes oculta/atenúa los iconos de redes sociales por defecto */
+/* Forzamos que la lista de iconos sea siempre visible al 100% */
+.author__urls-wrapper {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* 3. Quitamos cualquier efecto de "fantasmeo" en los iconos (SVG) */
+.author__urls a svg {
+  fill: currentColor !important;
+  opacity: 1 !important;
+}
+
+/* 4. Anulamos el efecto que hace que cambie al pasar el mouse */
+.author__urls a:hover {
+  opacity: 1 !important;
+  text-decoration: underline; /* Solo subrayado, no cambio de color */
+}
+
+
+/* ==========================================================================
+   FORZAR COLOR NEGRO Y NITIDEZ TOTAL (SIN HOVER)
+   ========================================================================== */
+
+/* 1. Forzamos que el nombre, la bio y los links sean negros/oscuros siempre */
+.author__name, 
+.author__bio, 
+.author__urls-wrapper,
+.author__urls a,
+.author__urls li {
+  color: #333333 !important; /* Cambia a #000000 si lo quieres aún más negro */
+  opacity: 1 !important;
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+
+/* 2. Minimal Mistakes oculta/atenúa los iconos de redes sociales por defecto */
+/* Forzamos que la lista de iconos sea siempre visible al 100% */
+.author__urls-wrapper {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* 3. Quitamos cualquier efecto de "fantasmeo" en los iconos (SVG) */
+.author__urls a svg {
+  fill: currentColor !important;
+  opacity: 1 !important;
+}
+
+/* 4. Anulamos el efecto que hace que cambie al pasar el mouse */
+.author__urls a:hover {
+  opacity: 1 !important;
+  text-decoration: underline; /* Solo subrayado, no cambio de color */
+}
