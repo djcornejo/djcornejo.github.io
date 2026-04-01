@@ -143,45 +143,39 @@
 
 
 /* ==========================================================================
-   RESET TOTAL DE VISIBILIDAD PARA EL AUTOR
+   CONFIGURACIÓN FINAL: AUTOR SIEMPRE NÍTIDO (SIN OPACIDAD)
    ========================================================================== */
 
-/* 1. Forzamos el color del texto a negro puro (o gris muy oscuro) */
-/* Esto elimina la sensación de "opaco" si el problema es el color de la fuente */
+/* 1. Forzamos visibilidad total y color oscuro para todo el bloque */
 .sidebar .author__profile,
-.sidebar .author__name,
-.sidebar .author__bio,
-.sidebar .author__urls a,
-.sidebar .author__urls li {
-  color: red !important;
-  opacity: 1 !important;
-  -webkit-font-smoothing: antialiased; /* Mejora la nitidez de la letra */
-}
-
-/* 2. Eliminamos cualquier máscara o capa que pueda estar encima */
-.sidebar .author__profile::before,
-.sidebar .author__profile::after {
-  display: none !important;
-}
-
-/* 3. Forzamos que la foto no tenga ningún velo blanco o gris */
-.author__avatar {
-  filter: none !important;
+.author__name, 
+.author__bio, 
+.author__urls-wrapper,
+.author__urls a {
+  opacity: 1 !important;           /* 100% nitidez */
+  filter: none !important;         /* Sin filtros de gris */
   -webkit-filter: none !important;
-  opacity: 1 !important;
-  background-color: transparent !important;
+  color: #333333 !important;       /* Color de texto sólido (puedes usar #000 si prefieres negro puro) */
+  text-decoration: none !important;
 }
 
-/* 4. IMPORTANTE: En Minimal Mistakes, los iconos y enlaces tienen 
-      una clase 'is--visible' que se activa por JS. La forzamos: */
-.author__urls-wrapper {
+/* 2. Aseguramos que los iconos (SVG) no se vean grises */
+.author__urls a svg {
+  fill: #333333 !important;
+  opacity: 1 !important;
+}
+
+/* 3. Forzamos que la lista de redes sociales sea visible siempre */
+/* (Evita que el JS del tema la atenúe al cargar) */
+.author__urls.is--visible, 
+.author__urls {
   display: block !important;
   visibility: visible !important;
   opacity: 1 !important;
 }
 
-/* 5. Quitamos el color gris de los iconos (SVG) */
-.author__urls a svg {
-  fill: #000000 !important; /* Iconos en negro */
+/* 4. Mantenemos la foto con brillo total */
+.author__avatar img {
   opacity: 1 !important;
+  filter: contrast(105%); /* Un toque extra de viveza opcional */
 }
