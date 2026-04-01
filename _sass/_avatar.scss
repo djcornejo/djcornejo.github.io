@@ -32,74 +32,21 @@
   transition: none !important;
 }
 
-/* ==========================================================================
-   FORZAR VISIBILIDAD TOTAL (ADIÓS EFECTO APAGADO)
-   ========================================================================== */
-
-/* 1. Forzamos el color del texto y la opacidad del contenedor */
-.sidebar .author__profile,
-.author__urls-wrapper,
-.author__content {
+/* 1. Forzamos que el perfil del autor sea 100% visible desde el inicio */
+.author__profile {
   opacity: 1 !important;
-  filter: none !important; /* Quita posibles filtros de escala de grises */
-  color: inherit !important; /* Evita que el texto se ponga gris claro */
+  visibility: visible !important;
 }
 
-/* 2. Específicamente para los iconos y enlaces (Email, Scholar, etc.) */
-/* El tema suele ponerles un color gris suave por defecto */
+/* 2. Eliminamos la animación de "fade" (desvanecimiento) */
+.author__urls-wrapper {
+  display: block !important; /* Evita que JS lo oculte al cargar */
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: none !important; /* Quita el efecto de suavizado al aparecer */
+}
+
+/* 3. Aseguramos que los enlaces internos no tengan opacidad reducida */
 .author__urls a {
   opacity: 1 !important;
-  color: inherit !important;
-  text-decoration: none;
-}
-
-/* 3. Anulamos el efecto 'hover' que el tema activa por defecto */
-/* Esto evita que la página "piense" que debe estar apagada hasta que te acerques */
-.author__urls-wrapper.is--visible {
-  display: block !important;
-  opacity: 1 !important;
-}
-
-/* 4. Si el texto sigue viéndose gris, forzamos el color principal del tema */
-.author__name, 
-.author__bio,
-.author__urls li {
-  color: #333 !important; /* O el color oscuro que use tu sitio */
-}
-
-
-/* ==========================================================================
-   FORZAR COLOR NEGRO Y NITIDEZ TOTAL (SIN HOVER)
-   ========================================================================== */
-
-/* 1. Forzamos que el nombre, la bio y los links sean negros/oscuros siempre */
-.author__name, 
-.author__bio, 
-.author__urls-wrapper,
-.author__urls a,
-.author__urls li {
-  color: #333333 !important; /* Cambia a #000000 si lo quieres aún más negro */
-  opacity: 1 !important;
-  -webkit-filter: none !important;
-  filter: none !important;
-}
-
-/* 2. Minimal Mistakes oculta/atenúa los iconos de redes sociales por defecto */
-/* Forzamos que la lista de iconos sea siempre visible al 100% */
-.author__urls-wrapper {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-/* 3. Quitamos cualquier efecto de "fantasmeo" en los iconos (SVG) */
-.author__urls a svg {
-  fill: currentColor !important;
-  opacity: 1 !important;
-}
-
-/* 4. Anulamos el efecto que hace que cambie al pasar el mouse */
-.author__urls a:hover {
-  opacity: 1 !important;
-  text-decoration: underline; /* Solo subrayado, no cambio de color */
 }
