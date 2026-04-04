@@ -28,7 +28,7 @@ I focus on monotone inclusion models and convex optimization problems, with appl
     <ul class="education-list">
       <li>
         <i class="fas fa-graduation-cap"></i>
-        PhD in Mathematics, May 2026 <br>
+        Ph.D. in Mathematics, May 2026 <br>
         <span class="edu-inst">&nbsp;&thinsp; North Carolina State University, USA </span>
       </li>
       <li>
