@@ -25,7 +25,7 @@ title: "Publications"
   Parametrized families of resolvent compositions,
   <cite><a href ="https://link.springer.com/journal/11228">
   Set-Valued and Variational Analysis</a></cite>,
-  vol. 33, no. 1, art. 6, 24 pp., February 2025.
+  vol. 33, no. 1, art. 6 (24 pp.), February 2025.
   [\[pdf\]](../assets/publications/svva25.pdf)
 
 - P. L. Combettes and D. J. Cornejo,
