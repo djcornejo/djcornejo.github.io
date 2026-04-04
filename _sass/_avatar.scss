@@ -12,9 +12,9 @@
 
 .author__bio {
   color: #666666 !important;   /* Cambia el color (gris oscuro) */
-  font-size: 0.9em !important;   /* Hazla un poco más pequeña o grande */
-  font-weight: 600 !important;   /* Hazla un poco más negrita (500-700) */
-  font-style: italic !important; /* Ponla en cursiva si prefieres */
-  margin-top: 5px !important;    /* Separa la bio del nombre */
+  font-size: 1.2em !important;   /* Hazla un poco más pequeña o grande */
+  font-weight: 700 !important;   /* Hazla un poco más negrita (500-700) */
+  /*font-style: italic !important; */ /* Ponla en cursiva si prefieres */
+  margin-top: 2px !important;    /* Separa la bio del nombre */
   opacity: 1 !important;         /* Asegura que NO se vea opaco */
 }
