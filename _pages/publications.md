@@ -11,7 +11,7 @@ title: "Publications"
   Resolvent compositions for positive linear operators,
   <cite><a href ="https://link.springer.com/journal/11117">
   Positivity</a></cite>,
-  to appear.
+  vol. 30, art. 40 (22 pp.), May 2026.
   [\[pdf\]](../assets/publications/posi26.pdf)
 
 - P. L. Combettes and D. J. Cornejo,
