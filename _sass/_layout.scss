@@ -58,3 +58,12 @@
 .site-logo img {
     max-height: 105px;
 }
+
+/* ------------- */
+.greedy-nav a:hover {
+  color: #355C8C !important;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #355C8C !important;
+}
