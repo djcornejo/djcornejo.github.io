@@ -6,7 +6,7 @@ title: "Teaching"
 ## Universidad del Pacífico
 
 - **Mathematics III** - Instructor, Fall 2026
-- 
+  
 
 ## North Carolina State University 
 
