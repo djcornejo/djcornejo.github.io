@@ -11,6 +11,11 @@ author_profile: true
 I successfully defended my Ph.D. dissertation in [Mathematics](https://math.sciences.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu) in March 2026, under the supervision of Prof. [Patrick L. Combettes](https://pcombet.math.ncsu.edu).
 I focus on monotone inclusion models and convex optimization problems, with applications in signal recovery, data science, and machine learning.
 
+Currently, I am affiliated with [Universidad del Pacífico](https://www.up.edu.pe), and collaborate with 
+Prof. [Orestes Bueno](https://faculty.up.edu.pe/es/persons/orestes-martín-bueno-tangoa/),
+Prof. [John Cotrina](https://faculty.up.edu.pe/es/persons/john-edwin-cotrina-asto/), and 
+Prof. [Yboon García](https://faculty.up.edu.pe/es/persons/yboon-victoria-garcía-ramos/).
+
 <div class="two-columns">
   <div class="column">
     <h3>Interests</h3>
@@ -20,6 +25,7 @@ I focus on monotone inclusion models and convex optimization problems, with appl
       <li style="list-style-type: disc;">Convex Optimization</li>
       <li style="list-style-type: disc;">Machine Learning</li>
       <li style="list-style-type: disc;">Data Analysis</li>
+      <li style="list-style-type: disc;">Game Theory</li>
     </ul>
   </div>
 
