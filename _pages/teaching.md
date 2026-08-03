@@ -3,12 +3,12 @@ permalink: /teaching/
 title: "Teaching"
 ---
 
-## Universidad del Pacífico
+## [Universidad del Pacífico](https://www.up.edu.pe)
 
 - **Mathematics III** - Instructor, Fall 2026
   
 
-## North Carolina State University 
+## [NC State University](https://www.ncsu.edu)
 
 - **Calculus II** - Instructor, Spring 2026
 - **Introductory Linear Algebra and Matrices** - Teaching Assistant, Fall 2025
