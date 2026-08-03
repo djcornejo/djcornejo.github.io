@@ -3,6 +3,6 @@ permalink: /teaching/
 title: "Teaching"
 ---
 
-## Universidad del Pacífico
+** Universidad del Pacífico**
 
-- **Matemáticas III** - Instructor, Fall 2026
+- **Mathematics III** - Instructor, Fall 2026
