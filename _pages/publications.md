@@ -4,8 +4,11 @@ title: "Publications"
 ---
 
 - P. L. Combettes and D. J. Cornejo,
-  Proximal comixture minimization models for image recovery and data analysis.
-  [\[arXiv\]](https://arxiv.org/abs/2403.09610)
+  Proximal comixture minimization models for image recovery and data analysis,
+  <cite><a href ="https://epubs.siam.org/journal/sjisbi">
+  SIAM Journal on Imaging Sciences</a></cite>,
+  to appear.
+  [\[pdf\]](../assets/publications/siims4.pdf)
 
 - D. J. Cornejo,
   Resolvent compositions for positive linear operators,
