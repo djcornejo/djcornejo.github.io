@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Diego J. Cornejo"
-  avatar : "/assets/images/photo.jpeg" 
+  avatar : "/assets/images/photo_up.jpg" 
   bio    : "Ph.D. in Mathematics"
   custom_head: _includes/head.html
   links:
