@@ -7,7 +7,8 @@ title: "Teaching"
 
 - **Mathematics III** - Instructor,
  <strong><a href="/images/m3-2026II.jpg" target="_blank">
- </a></strong> 2026-II
+ 2026-II
+ </a></strong> 
 - **Mathematics II** - Teaching Assistant, Summer 2021
 -  **Mathematics III** - Teaching Assistant, 2020-II
 - **Mathematics II** - Teaching Assistant, 2020
