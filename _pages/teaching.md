@@ -6,7 +6,7 @@ title: "Teaching"
 ## [Universidad del Pacífico](https://www.up.edu.pe)
 
 - **Mathematics III** - Instructor,
- <strong><a href="/assets/images/2026/m3-2026II.jpg" target="_blank">
+ <strong><a href="/assets/images/2026/m3-2026II.jpg">
  2026-II
  </a></strong> 
 - **Mathematics II** - Teaching Assistant, Summer 2021
